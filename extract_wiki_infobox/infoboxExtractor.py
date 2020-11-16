@@ -254,6 +254,6 @@ class InfoboxExtractor():
 if __name__ == "__main__":
 
     extractor = InfoboxExtractor()
-    parsed_data = extractor.run(input_file_name='kowiki-20200720-pages-articles-multistream.xml')
+    parsed_data = extractor.run(input_file_name='../resources/kowiki-20200720-pages-articles-multistream.xml')
 
-    save_file(parsed_data=parsed_data, output_file_name='full_output.json')
+    save_file(parsed_data=parsed_data, output_file_name='../resources/full_output.json')

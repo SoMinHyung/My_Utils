@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:강 정보</title>
+        <ns>242</ns>
+        <id>4632</id>
+        <revision>
+          <id>15533</id>
+          <timestamp>2011-10-13T00:54:12Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--강_정보--&gt;
+{{TemplateMapping
+| mapToClass = River
+| mappings =
+	{{PropertyMapping | templateProperty = 이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 다른이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 별명 | ontologyProperty = foaf:nick }}
+	{{PropertyMapping | templateProperty = 나라 | ontologyProperty = country }}
+	{{PropertyMapping | templateProperty = 지방 | ontologyProperty = region }}
+	{{PropertyMapping | templateProperty = 도시 | ontologyProperty = city }}
+	{{PropertyMapping | templateProperty = 왼쪽지류 | ontologyProperty = leftTributary }}
+	{{PropertyMapping | templateProperty = 오른쪽지류 | ontologyProperty = rightTributary }}
+	{{PropertyMapping | templateProperty = 발원지 | ontologyProperty = source }}
+	{{PropertyMapping | templateProperty = 발원지나라 | ontologyProperty = sourceCountry }}
+	{{PropertyMapping | templateProperty = 발원지지방 | ontologyProperty = sourceRegion }}
+	{{PropertyMapping | templateProperty = 발원지위치 | ontologyProperty = sourceMountain }}
+	{{PropertyMapping | templateProperty = 발원지위치 | ontologyProperty = sourcePlace }}
+	{{PropertyMapping | templateProperty = 합류점 | ontologyProperty = sourceConfluence }}
+	{{PropertyMapping | templateProperty = 합류점나라 | ontologyProperty = sourceConfluenceCountry }}
+	{{PropertyMapping | templateProperty = 합류점지방 | ontologyProperty = sourceConfluenceRegion }}
+	{{PropertyMapping | templateProperty = 합류점고도 | ontologyProperty = sourceConfluenceElevation }}
+	{{PropertyMapping | templateProperty = 하구나라 | ontologyProperty = mouthCountry }}
+	{{PropertyMapping | templateProperty = 하구지방 | ontologyProperty = mouthRegion }}
+	{{PropertyMapping | templateProperty = 하구고도 | ontologyProperty = mouthElevation | unit = metre }}
+	{{PropertyMapping | templateProperty = 길이 | ontologyProperty = length | unit = kilometre }}
+	{{PropertyMapping | templateProperty = 폭 | ontologyProperty = width | unit = kilometre }}
+end}}
+
+		  </text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

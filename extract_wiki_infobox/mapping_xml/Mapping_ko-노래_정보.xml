@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:노래 정보</title>
+        <ns>242</ns>
+        <id>4529</id>
+        <revision>
+          <id>15372</id>
+          <timestamp>2011-09-28T02:41:18Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">
+&lt;!--노래_정보--&gt;
+{{TemplateMapping
+| mapToClass = Song
+| mappings =
+	{{PropertyMapping | templateProperty = 곡명 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 음악가 | ontologyProperty = artist }}
+	{{PropertyMapping | templateProperty = 음반 | ontologyProperty = album }}
+	{{PropertyMapping | templateProperty = 발매일 | ontologyProperty = releaseDate }}
+	{{PropertyMapping | templateProperty = 녹음 | ontologyProperty = recordDate }}
+	{{PropertyMapping | templateProperty = 녹음 | ontologyProperty = recordedIn }}
+	{{PropertyMapping | templateProperty = 장르 | ontologyProperty = genre }}
+	{{PropertyMapping | templateProperty = 언어 | ontologyProperty = language }}
+	{{PropertyMapping | templateProperty = 길이 | ontologyProperty = runtime | unit = minute }}
+	{{PropertyMapping | templateProperty = 작사가 | ontologyProperty = writer }}
+	{{PropertyMapping | templateProperty = 작곡가 | ontologyProperty = composer }}
+	{{PropertyMapping | templateProperty = 프로듀서 | ontologyProperty = producer }}
+	{{PropertyMapping | templateProperty = 곡명 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 이전 곡명 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 이전 번호 | ontologyProperty = trackNumber }}
+	{{PropertyMapping | templateProperty = 이번 곡명 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 이번 번호 | ontologyProperty = trackNumber }}
+	{{PropertyMapping | templateProperty = 다음 곡명 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 다음 번호 | ontologyProperty = trackNumber }}
+end}}
+
+ 
+&lt;!-- Not Yet Mapping
+| 곡 목록     = 
+| 오디오 샘플 = 
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

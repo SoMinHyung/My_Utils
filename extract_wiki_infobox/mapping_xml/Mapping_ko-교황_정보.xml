@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:교황 정보</title>
+        <ns>242</ns>
+        <id>4636</id>
+        <revision>
+          <id>15537</id>
+          <timestamp>2011-10-13T01:17:04Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--교황_정보--&gt;
+{{TemplateMapping
+| mapToClass = ChristianBishop
+| mappings =
+	{{PropertyMapping | templateProperty = 이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 원래이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 전임자 | ontologyProperty = predecessor }}
+	{{PropertyMapping | templateProperty = 후임자 | ontologyProperty = successor }}
+	{{PropertyMapping | templateProperty = 태어난날 | ontologyProperty = birthDate }}
+	{{PropertyMapping | templateProperty = 태어난곳 | ontologyProperty = birthPlace }}
+	{{PropertyMapping | templateProperty = 죽은날 | ontologyProperty = deathDate }}
+	{{PropertyMapping | templateProperty = 죽은곳 | ontologyProperty = deathPlace }}
+	{{PropertyMapping | templateProperty = 임기시작 | ontologyProperty = activeYearsStartYear }}
+	{{PropertyMapping | templateProperty = 임기끝 | ontologyProperty = activeYearsEndYear }}
+end}}
+
+          </text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

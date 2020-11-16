@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:원소 정보</title>
+        <ns>242</ns>
+        <id>4562</id>
+        <revision>
+          <id>15435</id>
+          <timestamp>2011-09-29T00:39:41Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--원소_정보--&gt;
+{{TemplateMapping
+| mapToClass = ChemicalElement
+| mappings =
+	{{PropertyMapping | templateProperty = 이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 영어이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 밀도리터 | ontologyProperty = density | unit = Density }}
+	{{PropertyMapping | templateProperty = 밀도센티 | ontologyProperty = density | unit = Density }}
+	{{PropertyMapping | templateProperty = 녹는점 | ontologyProperty = meltingPoint | unit = kelvin }}
+	{{PropertyMapping | templateProperty = 끓는점 | ontologyProperty = boilingPoint | unit = kelvin }}
+	{{PropertyMapping | templateProperty = 상태 | ontologyProperty = status }}
+end}}
+
+ 
+&lt;!-- Not Yet Mapping
+|원자번호 = 
+|기호 = 
+|배경색 = 
+|글자색 = 
+|좌 = 
+|우 = 
+|상 = 
+|하 = 
+|계열 = 
+|족 = 
+|주기 = 
+|구역 = 
+|색 = 
+|그림 = 
+|질량 = 
+|전자배열 = 
+|준위별전자수 = 
+|액체밀도 =
+|삼중점 = 
+|융해열 = 
+|기화열 = 
+|열용량 = 
+|증기압1 = 
+|증기압2 = 
+|증기압3 = 
+|증기압4 = 
+|증기압5 = 
+|증기압6 = 
+|결정구조 = 
+|산화 = 
+|전기음성도 = 
+|이온화에너지1 = 
+|이온화에너지2 = 
+|이온화에너지3 = 
+|원자반지름 = 
+|원자반지름2 = 
+|공유반지름 = 
+|반데발스반지름 = 
+|자성 = 
+|저항률 = 
+|저항률0 = 
+|저항률20 = 
+|열전도율 = 
+|열팽창 = 
+|열팽창25 = 
+|음속 = 
+|막대음속20 = 
+|막대음속실온 = 
+|영률 = 
+|전단탄성 = 
+|부피탄성 = 
+|푸아송비 = 
+|모스굳기 = 
+|비커스굳기 = 
+|브리넬굳기 = 
+|CAS = 
+|동위원소 = 
+|동위원소설명 = 
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:나라별 올림픽 정보</title>
+        <ns>242</ns>
+        <id>4641</id>
+        <revision>
+          <id>15542</id>
+          <timestamp>2011-10-13T02:34:20Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--나라별_올림픽_정보--&gt;
+{{TemplateMapping
+| mapToClass = OlympicResult
+| mappings =
+	{{PropertyMapping | templateProperty = NOC | ontologyProperty = nationalOlympicCommittee }}
+	{{PropertyMapping | templateProperty = NOCname | ontologyProperty = nationalOlympicCommittee }}
+	{{PropertyMapping | templateProperty = 참가선수 | ontologyProperty = numberOfCompetitors }}
+	{{PropertyMapping | templateProperty = 종목 | ontologyProperty = numberOfSports }}
+	{{PropertyMapping | templateProperty = 기수 | ontologyProperty = flagBearer }}
+	{{PropertyMapping | templateProperty = 임원 | ontologyProperty = numberOfOfficials }}
+	{{PropertyMapping | templateProperty = 금 | ontologyProperty = numberOfGoldMedalsWon }}
+	{{PropertyMapping | templateProperty = 은 | ontologyProperty = numberOfSilverMedalsWon }}
+	{{PropertyMapping | templateProperty = 동 | ontologyProperty = numberOfBronzeMedalsWon }}
+	{{PropertyMapping | templateProperty = 순위 | ontologyProperty = rankInFinalMedalCount }}
+	{{PropertyMapping | templateProperty = 하계 올림픽 | ontologyProperty = summerAppearances }}
+	{{PropertyMapping | templateProperty = 동계 올림픽 | ontologyProperty = winterAppearances }}
+end}}
+
+
+
+&lt;!-- Not Yet Mapping
+|연도={{{연도|}}}
+|종류={{{종류|}}}
+|남자선수={{{남자선수|}}}
+|여자선수={{{여자선수|}}}
+|하계 청소년 올림픽=
+|하계 청소년 올림픽 2=
+|동계 청소년 올림픽=
+|동계 청소년 올림픽 2=
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

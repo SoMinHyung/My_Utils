@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:언어 정보</title>
+        <ns>242</ns>
+        <id>4523</id>
+        <revision>
+          <id>15359</id>
+          <timestamp>2011-09-28T02:07:17Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--언어_정보--&gt;
+{{TemplateMapping
+| mapToClass = Language
+| mappings =
+	{{PropertyMapping | templateProperty = 이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 사용 국가 | ontologyProperty = country }}
+	{{PropertyMapping | templateProperty = 사용 지역 | ontologyProperty = region }}
+	{{PropertyMapping | templateProperty = 언어 인구 | ontologyProperty = populationTotal }}
+	{{PropertyMapping | templateProperty = 언어 계통 | ontologyProperty = languageFamily }}
+	{{PropertyMapping | templateProperty = 계통1 | ontologyProperty = languageFamily }}
+	{{PropertyMapping | templateProperty = 계통2 | ontologyProperty = languageFamily }}
+	{{PropertyMapping | templateProperty = 계통3 | ontologyProperty = languageFamily }}
+	{{PropertyMapping | templateProperty = 계통4 | ontologyProperty = languageFamily }}
+	{{PropertyMapping | templateProperty = 계통5 | ontologyProperty = languageFamily }}
+	{{PropertyMapping | templateProperty = 계통6 | ontologyProperty = languageFamily }}
+	{{PropertyMapping | templateProperty = 계통7 | ontologyProperty = languageFamily }}
+	{{PropertyMapping | templateProperty = 계통8 | ontologyProperty = languageFamily }}
+	{{PropertyMapping | templateProperty = 계통9 | ontologyProperty = languageFamily }}
+	{{PropertyMapping | templateProperty = 계통10 | ontologyProperty = languageFamily }}
+	{{PropertyMapping | templateProperty = 계통11 | ontologyProperty = languageFamily }}
+	{{PropertyMapping | templateProperty = 계통12 | ontologyProperty = languageFamily }}
+	{{PropertyMapping | templateProperty = 계통13 | ontologyProperty = languageFamily }}
+	{{PropertyMapping | templateProperty = 계통14 | ontologyProperty = languageFamily }}
+	{{PropertyMapping | templateProperty = 계통15 | ontologyProperty = languageFamily }}
+	{{PropertyMapping | templateProperty = fam5 | ontologyProperty = languageFamily }}
+	{{PropertyMapping | templateProperty = iso1 | ontologyProperty = iso6391Code }}
+	{{PropertyMapping | templateProperty = iso2 | ontologyProperty = iso6392Code }}
+	{{PropertyMapping | templateProperty = iso3 | ontologyProperty = iso6393Code }}
+end}}</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

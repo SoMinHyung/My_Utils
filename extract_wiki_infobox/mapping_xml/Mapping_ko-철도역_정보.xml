@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:철도역 정보</title>
+        <ns>242</ns>
+        <id>4536</id>
+        <revision>
+          <id>15388</id>
+          <timestamp>2011-09-28T03:22:07Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--철도역_정보--&gt;
+{{TemplateMapping
+| mapToClass = Station
+| mappings =
+	{{PropertyMapping | templateProperty = 역명 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 역명2 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 소재지 | ontologyProperty = address }}
+	{{PropertyMapping | templateProperty = 개업일 | ontologyProperty = openingDate }}
+	{{PropertyMapping | templateProperty = 폐지일 | ontologyProperty = closingDate }}
+	{{PropertyMapping | templateProperty = 관할 | ontologyProperty = owningOrganisation }}
+	{{PropertyMapping | templateProperty = 역번호 | ontologyProperty = agencyStationCode }}
+	{{PropertyMapping | templateProperty = 노선1 | ontologyProperty = fareZone }}
+end}}
+ 
+&lt;!-- Not Yet Mapping
+|좌표 = 
+|승강장 = 
+|영업거리1 = 
+|전역1 = 
+|전거리1 = 
+|후역1 = 
+|후거리1 = 
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

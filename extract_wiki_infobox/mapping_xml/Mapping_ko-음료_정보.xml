@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:음료 정보</title>
+        <ns>242</ns>
+        <id>4558</id>
+        <revision>
+          <id>15431</id>
+          <timestamp>2011-09-29T00:19:29Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--음료_정보--&gt;
+{{TemplateMapping
+| mapToClass = Beverage
+| mappings =	
+	{{PropertyMapping | templateProperty = 이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 종류 | ontologyProperty = type }}
+
+	{{PropertyMapping | templateProperty = 제조사 | ontologyProperty = manufacturer }}
+	{{PropertyMapping | templateProperty = 판매사 | ontologyProperty = distributor }}
+	{{PropertyMapping | templateProperty = 원산지 | ontologyProperty = origin }}
+	{{PropertyMapping | templateProperty = 출시 연도 | ontologyProperty = introduced }}
+	{{PropertyMapping | templateProperty = 단종 연도 | ontologyProperty = discontinued }}
+	{{PropertyMapping | templateProperty = 유사 음료 | ontologyProperty = hasVariant }}
+	{{PropertyMapping | templateProperty = 관련 음료 | ontologyProperty = related }}
+	{{PropertyMapping | templateProperty = 웹사이트 | ontologyProperty = foaf:homepage }}
+end}}
+ 
+&lt;!-- Not Yet Mapping
+|알코올 도수 = 
+|표준 강도 = 
+|색 = 
+|맛 = 
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

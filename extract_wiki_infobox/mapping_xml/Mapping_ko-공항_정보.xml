@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:공항 정보</title>
+        <ns>242</ns>
+        <id>4527</id>
+        <revision>
+          <id>15367</id>
+          <timestamp>2011-09-28T02:29:08Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--공항_정보--&gt;
+{{TemplateMapping
+| mapToClass = Airport
+| mappings =
+	{{PropertyMapping | templateProperty = 공항명 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 한자명 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 영어명-a | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = IATA | ontologyProperty = iataLocationIdentifier }}
+	{{PropertyMapping | templateProperty = ICAO | ontologyProperty = icaoLocationIdentifier }}
+	{{PropertyMapping | templateProperty = FAA | ontologyProperty = faaLocationIdentifier }}
+	{{PropertyMapping | templateProperty = LID | ontologyProperty = locationIdentifier }}
+	{{PropertyMapping | templateProperty = 공항종별 | ontologyProperty = type }}
+	{{PropertyMapping | templateProperty = 소유기관 | ontologyProperty = owner }}
+	{{PropertyMapping | templateProperty = 운영기관 | ontologyProperty = operator }}
+    	{{PropertyMapping | templateProperty = 소유-운영기관 | ontologyProperty = owner }}
+    	{{PropertyMapping | templateProperty = 소유-운영기관 | ontologyProperty = operator }}
+	{{PropertyMapping | templateProperty = 도시 | ontologyProperty = city }}
+	{{PropertyMapping | templateProperty = 위치 | ontologyProperty = location }}
+	{{DateIntervalMapping | templateProperty = 건립시기 | startDateOntologyProperty = buildingStartDate | endDateOntologyProperty = buildingEndDate }}
+	{{DateIntervalMapping | templateProperty = 사용시기 | startDateOntologyProperty = openingDate | endDateOntologyProperty = dateOfAbandonment }}
+	{{PropertyMapping | templateProperty = 책임자 | ontologyProperty = commander }}
+	{{PropertyMapping | templateProperty = r1-방향 | ontologyProperty = runwayDesignation }}
+	{{PropertyMapping | templateProperty = r1-길이 | ontologyProperty = runwayLength | unit = metre }}
+	{{PropertyMapping | templateProperty = r1-표면 | ontologyProperty = runwaySurface }}
+	{{PropertyMapping | templateProperty = r2-방향 | ontologyProperty = runwayDesignation }}
+	{{PropertyMapping | templateProperty = r2-길이 | ontologyProperty = runwayLength | unit = metre }}
+	{{PropertyMapping | templateProperty = r2-표면 | ontologyProperty = runwaySurface }}
+			  {{PropertyMapping | templateProperty = r3-방향 | ontologyProperty = runwayDesignation }}
+	{{PropertyMapping | templateProperty = r3-길이 | ontologyProperty = runwayLength | unit = metre }}
+	{{PropertyMapping | templateProperty = r3-표면 | ontologyProperty = runwaySurface }}
+			  {{PropertyMapping | templateProperty = r4-방향 | ontologyProperty = runwayDesignation }}
+	{{PropertyMapping | templateProperty = r4-길이 | ontologyProperty = runwayLength | unit = metre }}
+	{{PropertyMapping | templateProperty = r4-표면 | ontologyProperty = runwaySurface }}
+			  {{PropertyMapping | templateProperty = r5-방향 | ontologyProperty = runwayDesignation }}
+	{{PropertyMapping | templateProperty = r5-길이 | ontologyProperty = runwayLength | unit = metre }}
+	{{PropertyMapping | templateProperty = r5-표면 | ontologyProperty = runwaySurface }}
+			  {{PropertyMapping | templateProperty = r6-방향 | ontologyProperty = runwayDesignation }}
+	{{PropertyMapping | templateProperty = r6-길이 | ontologyProperty = runwayLength | unit = metre }}
+	{{PropertyMapping | templateProperty = r6-표면 | ontologyProperty = runwaySurface }}
+			  {{PropertyMapping | templateProperty = r7-방향 | ontologyProperty = runwayDesignation }}
+	{{PropertyMapping | templateProperty = r7-길이 | ontologyProperty = runwayLength | unit = metre }}
+	{{PropertyMapping | templateProperty = r7-표면 | ontologyProperty = runwaySurface }}
+  	{{PropertyMapping | templateProperty = r8-방향 | ontologyProperty = runwayDesignation }}
+	{{PropertyMapping | templateProperty = r8-길이 | ontologyProperty = runwayLength | unit = metre }}
+	{{PropertyMapping | templateProperty = r8-표면 | ontologyProperty = runwaySurface }}
+	{{PropertyMapping | templateProperty = 웹사이트 | ontologyProperty = foaf:homepage }}
+end}}
+    
+
+&lt;!-- Not Yet Mapping
+| 시간기준 = KST
+| 운영시간 = 
+| 점유기관    = 
+| metric-elev  = yes
+| 해발-f  = 246
+| 해발-m  = 75
+| 좌표  = 
+
+| h1-번호 = H1
+| h1-길이= 30
+| h1-표면=아스팔트
+... h12- 까지 작성 가능
+
+
+| stat-연도    = 
+| stat1-제목 = 
+| stat1-수치   = 
+stat4- 까지 작성 가능
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

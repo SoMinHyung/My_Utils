@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:우주정거장 정보</title>
+        <ns>242</ns>
+        <id>4662</id>
+        <revision>
+          <id>15573</id>
+          <timestamp>2011-10-18T00:33:25Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--우주정거장_정보--&gt;
+{{TemplateMapping
+| mapToClass = SpaceStation
+| mappings =
+	{{PropertyMapping | templateProperty = 호출 | ontologyProperty = callSign }}
+	{{PropertyMapping | templateProperty = 중량 | ontologyProperty = mass | unit = Mass }}
+	{{PropertyMapping | templateProperty = 속력 | ontologyProperty = averageSpeed }}
+	{{PropertyMapping | templateProperty = 총거리 | ontologyProperty = distance }}
+	{{PropertyMapping | templateProperty = 길이 | ontologyProperty = length | unit = Length }}
+	{{PropertyMapping | templateProperty = 폭 | ontologyProperty = width | unit = Length }}
+	{{PropertyMapping | templateProperty = 상태 | ontologyProperty = status }}
+	{{PropertyMapping | templateProperty = 높이 | ontologyProperty = height | unit = Length }}
+	{{PropertyMapping | templateProperty = 지름 | ontologyProperty = diameter | unit = kilometre }}
+	{{PropertyMapping | templateProperty = 부피 | ontologyProperty = volume | unit = cubicMetre }}
+	{{PropertyMapping | templateProperty = 이름 | ontologyProperty = foaf:name }}
+end}}
+
+&lt;!-- Not Yet Mapping
+| 승무원    = 승무원 수
+| 발사일    = 발사 날짜
+| 발사대    = 발사 장소와 발사대
+| 재진입    = 재진입 날짜
+| 압력      = 내부 공기압력
+| 근지점    = 근지점(Perigee), 궤도의 가장 가까운 위치
+| 원지점    = 원지점(Apogee), 궤도의 가장 먼 위치
+| 기울기    = 궤도가 적도에서 최대로 벗어날 때의 기울어진 각도
+| 고도      = 지구로부터의 평균높이
+| 주기      = 지구를 한바퀴 도는 시간
+| 일일공전  = 우주정거장이 하루 동안 지구를 도는 횟수
+| 궤도일수  = 궤도에 머무른 최대 일수
+| 체류일수  = 궤도상에서 승무원이 머문 일수
+| 공전수    = 공전한 총 횟수
+|    = 이동한 거리
+| 참조일    = 기록이 유효한 날짜. 기록마다 날짜가 다르면 별도기재
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

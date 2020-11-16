@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:화합물 정보</title>
+        <ns>242</ns>
+        <id>4612</id>
+        <revision>
+          <id>15511</id>
+          <timestamp>2011-10-06T06:11:52Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--화합물_정보--&gt;
+{{TemplateMapping
+| mapToClass = ChemicalCompound
+| correspondingClass = ChemicalCompound
+| mappings =
+	{{PropertyMapping | templateProperty = 이름 | ontologyProperty = foaf:name }}
+    	{{PropertyMapping | templateProperty = 별칭 | ontologyProperty = foaf:nick }}
+	{{PropertyMapping | templateProperty = IUPAC | ontologyProperty = iupacName }}
+	{{PropertyMapping | templateProperty = CAS | ontologyProperty = casNumber }}
+	{{PropertyMapping | templateProperty = 밀도 | ontologyProperty = density | unit = Density }}
+	{{PropertyMapping | templateProperty = 녹는점 | ontologyProperty = meltingPoint | unit = Temperature }}
+	{{PropertyMapping | templateProperty = 끓는점 | ontologyProperty = boilingPoint | unit = Temperature }}
+end}}
+
+&lt;!-- Not Yet Mapping
+|화학식= 
+|분자식= 
+|상온상태= 
+|원자량 = 
+|분자량= 
+|용해도=
+|용해성=
+|상온색= 
+|상온상태= 
+|상온색= 
+|기체= 
+|기체1= 
+|액체= 
+|액체1= 
+|고체=
+|고체1=
+|섭취= 
+|흡입= 
+|피부= 
+|눈= 
+|R-phrase=
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

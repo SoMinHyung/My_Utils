@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:다리 정보</title>
+        <ns>242</ns>
+        <id>4511</id>
+        <revision>
+          <id>15299</id>
+          <timestamp>2011-09-26T06:02:01Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--다리_정보--&gt;
+{{TemplateMapping
+| mapToClass = Bridge
+| mappings =
+	{{PropertyMapping | templateProperty = 이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 공식명칭 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 교통시설 | ontologyProperty = bridgeCarries }}
+	{{PropertyMapping | templateProperty = 횡단 | ontologyProperty = crosses }}
+	{{PropertyMapping | templateProperty = 국적 | ontologyProperty = nationality }}
+	{{PropertyMapping | templateProperty = 위치 | ontologyProperty = locatedInArea }}
+	{{PropertyMapping | templateProperty = 관리 | ontologyProperty = maintainedBy }}
+	{{PropertyMapping | templateProperty = id | ontologyProperty = unitedStatesNationalBridgeId }}
+	{{PropertyMapping | templateProperty = 설계 | ontologyProperty = architect }}
+	{{PropertyMapping | templateProperty = 길이 | ontologyProperty = length | unit = Length }}
+	{{PropertyMapping | templateProperty = 총길이 | ontologyProperty = length | unit = Length }}
+	{{PropertyMapping | templateProperty = 너비 | ontologyProperty = width | unit = Length }}
+	{{PropertyMapping | templateProperty = 운행높이 | ontologyProperty = height | unit = Length }}
+	{{PropertyMapping | templateProperty = 교통량 | ontologyProperty = vehiclesPerDay }}
+	{{PropertyMapping | templateProperty = 착공일 | ontologyProperty = buildingStartDate }}
+	{{PropertyMapping | templateProperty = 완공일 | ontologyProperty = buildingEndDate }}
+	{{PropertyMapping | templateProperty = 개통일 | ontologyProperty = openingDate }}
+	{{PropertyMapping | templateProperty = 개통일 | ontologyProperty = openingYear }}
+	{{PropertyMapping | templateProperty = 폐쇄일 | ontologyProperty = closingDate }}
+	{{PropertyMapping | templateProperty = 폐쇄일 | ontologyProperty = closingYear }}
+	{{PropertyMapping | templateProperty = 요금 | ontologyProperty = toll | unit = Currency }}
+	{{GeocoordinatesMapping | coordinates = 좌표 }}
+end}}
+
+
+&lt;!--Not Yet Mapping
+| 경간 구성=
+| 주경간=
+| 형하공간=
+| 위도=
+| 경도=
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

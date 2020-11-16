@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:영화인 정보</title>
+        <ns>242</ns>
+        <id>4494</id>
+        <revision>
+          <id>15490</id>
+          <timestamp>2011-09-30T02:31:57Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--영화인_정보--&gt;
+{{TemplateMapping
+| mapToClass = Actor
+| mappings =
+	{{PropertyMapping | templateProperty = 이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 본명 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 출생일 | ontologyProperty = birthDate }}
+ 	{{PropertyMapping | templateProperty = 출생지 | ontologyProperty = birthPlace }}
+	{{PropertyMapping | templateProperty = 사망일 | ontologyProperty = deathDate }}
+	{{PropertyMapping | templateProperty = 사망지  | ontologyProperty = deathPlace }}
+	{{PropertyMapping | templateProperty = 다른이름 | ontologyProperty = alias }}
+	{{PropertyMapping | templateProperty = 국적 | ontologyProperty = nationality }}
+	{{PropertyMapping | templateProperty = 직업 | ontologyProperty = occupation }}
+	{{DateIntervalMapping | templateProperty = 활동기간 | startDateOntologyProperty = activeYearsStartYear | endDateOntologyProperty = activeYearsEndYear }}
+	{{PropertyMapping | templateProperty = 종교 | ontologyProperty = religion }}
+	{{PropertyMapping | templateProperty = 부모 | ontologyProperty = parent }}
+	{{PropertyMapping | templateProperty = 형제자매 | ontologyProperty = relative }}
+	{{PropertyMapping | templateProperty = 배우자 | ontologyProperty = spouse }}
+	{{PropertyMapping | templateProperty = 자녀 | ontologyProperty = child }}
+	{{PropertyMapping | templateProperty = 소속사 | ontologyProperty = owningOrganisation }}
+	{{PropertyMapping | templateProperty = 수상 | ontologyProperty = award }}
+	{{PropertyMapping | templateProperty = 웹사이트 | ontologyProperty = foaf:homepage }}
+end}}</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

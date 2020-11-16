@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:의회 정보</title>
+        <ns>242</ns>
+        <id>4565</id>
+        <revision>
+          <id>15438</id>
+          <timestamp>2011-09-29T00:48:59Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--의회_정보--&gt;
+{{TemplateMapping
+| mapToClass = Legislature
+| mappings =
+	{{PropertyMapping | templateProperty = 이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 원명 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 웹사이트 | ontologyProperty = foaf:homepage }}
+end}}
+
+ 
+&lt;!-- Not Yet Mapping
+ | 의회임기 = 
+ | 문장_pic = 
+ | 문장_res = 
+ | 문장_alt = 
+ | 의회 체제 = 
+ | 의원 = 
+ | 의장1칭호 = 
+ | 의장1 = 
+ | 정당1 = &lt;small&gt;&lt;/small&gt;
+ | 의장선거1 = 
+ | 의장2칭호 = 
+ | 의장2 = 
+ | 정당2 = &lt;small&gt;&lt;/small&gt;
+ | 의장선거2 = 
+ | 의장3칭호 = 
+ | 의장3 = 
+ | 정당3 = &lt;small&gt;&lt;/small&gt;
+ | 의장선거3 = 
+ | 의장4칭호 = 
+ | 의장4 = 
+ | 정당4 = &lt;small&gt;&lt;/small&gt;
+ | 의장선거4 = 
+ | 의장5칭호 = 
+ | 의장5 = 
+ | 정당5 = &lt;small&gt;&lt;/small&gt;
+ | 의장선거5 = 
+ | 의장6칭호 = 
+ | 의장6 = 
+ | 정당6 = &lt;small&gt;&lt;/small&gt;
+ | 의장선거6 = 
+ | 정원 = 
+ | 의원임기 =
+ | 의회1 = 
+ | 의회2 = 
+ | 그림1 = 
+ | 그림1_res = 
+ | 그림1_alt = 
+ | 그림2 = 
+ | 그림2_res = 
+ | 그림2_alt = 
+ | 정당구성1 = 
+ | 정당구성2 = 
+ | 위원회1 = 
+ | 위원회2 = 
+ | 합동위원회 = 
+ | 선거제1 = 
+ | 선거제2 = 
+ | 이전선거1 = 
+ | 이전선거2 = 
+ | 의사당_room = 
+ | 의사당_res = 
+ | 의사당_alt = 
+ | 의사당 = 
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

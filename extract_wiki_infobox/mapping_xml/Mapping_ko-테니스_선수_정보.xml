@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:테니스 선수 정보</title>
+        <ns>242</ns>
+        <id>4621</id>
+        <revision>
+          <id>15520</id>
+          <timestamp>2011-10-06T07:07:36Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--테니스_선수_정보--&gt;
+{{TemplateMapping
+| mapToClass = TennisPlayer
+| mappings =
+	{{PropertyMapping | templateProperty = 국가 | ontologyProperty = country }}
+	{{PropertyMapping | templateProperty = 통산 상금  | ontologyProperty = careerPrizeMoney }}
+	{{PropertyMapping | templateProperty = 이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 본명 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 애칭 | ontologyProperty = foaf:nick }}
+	{{PropertyMapping | templateProperty = 거주지 | ontologyProperty = residence }}
+	{{PropertyMapping | templateProperty = 출생일 | ontologyProperty = birthDate }}
+	{{PropertyMapping | templateProperty = 출생지 | ontologyProperty = birthPlace }}
+	{{PropertyMapping | templateProperty = 신장 | ontologyProperty = height }}
+	{{PropertyMapping | templateProperty = 체중 | ontologyProperty = weight }}
+	{{PropertyMapping | templateProperty = 프로 데뷔 | ontologyProperty = activeYearsStartDate }}
+	{{PropertyMapping | templateProperty = 은퇴 | ontologyProperty = activeYearsEndDate }}
+end}}
+&lt;!-- Not Yet Mapping
+|사용손                   =
+|단식 통산 전적           =
+|단식 통산 타이틀         =
+|단식 최고 랭킹           =
+|호주 오픈 전적           =
+|프랑스 오픈 전적         =
+|윔블던 전적              =
+|U.S. 오픈 전적          =
+|복식 통산 전적           =
+|복식 통산 타이틀         =
+|복식 최고 랭킹           =
+|호주 오픈 복식 전적      =
+|프랑스 오픈 복식 전적    =
+|윔블던 복식 전적         =
+|U.S. 오픈 복식 전적     =
+|기타 대회 복식 전적      =
+|마스터스컵 복식 전적     =
+|WTA 챔피언십 복식 전적  =
+|올림픽 복식 전적 
+
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

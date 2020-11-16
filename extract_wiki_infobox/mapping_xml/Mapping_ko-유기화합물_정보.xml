@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:유기화합물 정보</title>
+        <ns>242</ns>
+        <id>4563</id>
+        <revision>
+          <id>15436</id>
+          <timestamp>2011-09-29T00:41:26Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">
+&lt;!--유기화합물_정보--&gt;
+{{TemplateMapping
+| mapToClass = ChemicalElement
+| mappings =
+	{{PropertyMapping | templateProperty = 이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 영어이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 밀도리터 | ontologyProperty = density | unit = Density }}
+	{{PropertyMapping | templateProperty = 밀도센티 | ontologyProperty = density | unit = Density }}
+	{{PropertyMapping | templateProperty = 녹는점 | ontologyProperty = meltingPoint | unit = kelvin }}
+	{{PropertyMapping | templateProperty = 끓는점 | ontologyProperty = boilingPoint | unit = kelvin }}
+	{{PropertyMapping | templateProperty = 상태 | ontologyProperty = status }}
+end}}</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

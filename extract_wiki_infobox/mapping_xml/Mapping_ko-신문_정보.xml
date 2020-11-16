@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:신문 정보</title>
+        <ns>242</ns>
+        <id>4479</id>
+        <revision>
+          <id>17213</id>
+          <timestamp>2012-04-10T17:06:28Z</timestamp>
+          <contributor>
+            <username>Chrisahn</username>
+            <id>23</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--신문_정보--&gt;
+{{TemplateMapping
+| mapToClass = Newspaper
+| mappings =
+	{{PropertyMapping | templateProperty = 이름 | ontologyProperty = title }}
+	{{PropertyMapping | templateProperty = 원어명 | ontologyProperty = title }}
+	{{PropertyMapping | templateProperty = 종류 | ontologyProperty = type }}
+	{{PropertyMapping | templateProperty = 판형 | ontologyProperty = format }}
+	{{PropertyMapping | templateProperty = 소유주 | ontologyProperty = owner }}
+	{{PropertyMapping | templateProperty = 출판사 | ontologyProperty = publisher }}
+	{{PropertyMapping | templateProperty = 편집장 | ontologyProperty = chiefEditor }}
+	{{PropertyMapping | templateProperty = 편집차장 | ontologyProperty = associateEditor }}
+	{{PropertyMapping | templateProperty = 편집국장 | ontologyProperty = managingEditor }}
+	{{PropertyMapping | templateProperty = 주필 | ontologyProperty = editor }}
+	{{PropertyMapping | templateProperty = 창간 | ontologyProperty = foundingDate }}
+	{{PropertyMapping | templateProperty = 언어 | ontologyProperty = language }}
+	{{PropertyMapping | templateProperty = 본사 | ontologyProperty = headquarter }}
+	{{PropertyMapping | templateProperty = 발행 부수 | ontologyProperty = circulation }}
+	{{PropertyMapping | templateProperty = 자매지 | ontologyProperty = sisterNewspaper }}
+	{{PropertyMapping | templateProperty = 웹사이트 | ontologyProperty = foaf:homepage }}
+	{{PropertyMapping | templateProperty = ISSN | ontologyProperty = issn }}
+ 	{{PropertyMapping | templateProperty = OCLC | ontologyProperty = oclc }}
+
+end}}
+
+ 
+&lt;!-- Not Yet Mapping
+| 폐간            = 
+| 성향            = 
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

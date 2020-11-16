@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:일반인 정보</title>
+        <ns>242</ns>
+        <id>4567</id>
+        <revision>
+          <id>15440</id>
+          <timestamp>2011-09-29T00:53:01Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--인물_정보--&gt;
+{{TemplateMapping
+| mapToClass = Person
+| mappings =
+	{{PropertyMapping | templateProperty = 이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 원어이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 본명 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 출생일 | ontologyProperty = birthDate }}
+	{{PropertyMapping | templateProperty = 출생지 | ontologyProperty = birthPlace }}
+	{{PropertyMapping | templateProperty = 사망일 | ontologyProperty = deathDate }}
+	{{PropertyMapping | templateProperty = 사망지 | ontologyProperty = deathPlace }}
+	{{PropertyMapping | templateProperty = 사망원인 | ontologyProperty = deathCause }}
+	{{PropertyMapping | templateProperty = 발견지 | ontologyProperty = bodyDiscovered }}
+	{{PropertyMapping | templateProperty = 매장지 | ontologyProperty = restingPlace }}
+	{{PropertyMapping | templateProperty = 거주지 | ontologyProperty = residence }}
+	{{PropertyMapping | templateProperty = 국적 | ontologyProperty = nationality }}
+	{{PropertyMapping | templateProperty = 민족 | ontologyProperty = ethnicity }}
+	{{PropertyMapping | templateProperty = 시민권 | ontologyProperty = citizenship }}
+	{{PropertyMapping | templateProperty = 고향 | ontologyProperty = hometown }}
+	{{PropertyMapping | templateProperty = 별칭 | ontologyProperty = foaf:nick }}
+	{{PropertyMapping | templateProperty = 학력 | ontologyProperty = education }}
+	{{PropertyMapping | templateProperty = 직업 | ontologyProperty = occupation }}
+	{{DateIntervalMapping | templateProperty = 활동기간 | startDateOntologyProperty = activeYearsStartYear | endDateOntologyProperty = activeYearsEndYear }}
+	{{PropertyMapping | templateProperty = 봉급 | ontologyProperty = salary | unit = Currency }}
+	{{PropertyMapping | templateProperty = 순자산 | ontologyProperty = networth | unit = Currency }}
+	{{PropertyMapping | templateProperty = 몸무게 | ontologyProperty = weight | unit = Mass }}
+	{{PropertyMapping | templateProperty = 칭호 | ontologyProperty = title }}
+	{{PropertyMapping | templateProperty = 전임자 | ontologyProperty = predecessor }}
+	{{PropertyMapping | templateProperty = 후임자 | ontologyProperty = successor }}
+	{{PropertyMapping | templateProperty = 정당 | ontologyProperty = party }}
+	{{PropertyMapping | templateProperty = 적수 | ontologyProperty = opponent }}
+	{{PropertyMapping | templateProperty = 위원 | ontologyProperty = board }}
+	{{PropertyMapping | templateProperty = 종교 | ontologyProperty = religion }}
+	{{PropertyMapping | templateProperty = 배우자 | ontologyProperty = spouse }}
+	{{PropertyMapping | templateProperty = 동거인 | ontologyProperty = partner }}
+	{{PropertyMapping | templateProperty = 자녀 | ontologyProperty = child }}
+	{{PropertyMapping | templateProperty = 친척 | ontologyProperty = relative }}
+	{{PropertyMapping | templateProperty = 상훈 | ontologyProperty = award }}
+	{{PropertyMapping | templateProperty = 부모 | ontologyProperty = parent }}
+	{{PropertyMapping | templateProperty = 웹사이트 | ontologyProperty = foaf:homepage }}
+end}}
+
+ 
+&lt;!-- Not Yet Mapping
+| 매장지좌표 =
+| 경력       = 
+| 소속       = 
+| 현직       = 
+| 전직       = 
+| 작위       = 
+| 칭호기간   = 
+| 등단       = 
+| 호출부호   = 
+| 서명       = 
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

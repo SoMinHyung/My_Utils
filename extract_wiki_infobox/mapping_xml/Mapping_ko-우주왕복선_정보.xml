@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:우주왕복선 정보</title>
+        <ns>242</ns>
+        <id>4661</id>
+        <revision>
+          <id>15571</id>
+          <timestamp>2011-10-18T00:28:59Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--우주왕복선_정보--&gt;
+{{TemplateMapping
+| mapToClass = SpaceShuttle
+| mappings =
+	{{PropertyMapping | templateProperty = 이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 번호 | ontologyProperty = number }}
+	{{PropertyMapping | templateProperty = 국가 | ontologyProperty = country }}
+	{{PropertyMapping | templateProperty = 계약일 | ontologyProperty = contractAward }}
+	{{PropertyMapping | templateProperty = 어원 | ontologyProperty = namedAfter }}
+	{{PropertyMapping | templateProperty = 최초임무 | ontologyProperty = firstFlight }}
+	{{PropertyMapping | templateProperty = 최후임무 | ontologyProperty = lastFlight }}
+	{{PropertyMapping | templateProperty = 임무횟수 | ontologyProperty = missions }}
+	{{PropertyMapping | templateProperty = 승무원수 | ontologyProperty = crews }}
+	{{PropertyMapping | templateProperty = 체류일수 | ontologyProperty = timeInSpace | unit = Time }}
+	{{PropertyMapping | templateProperty = 주회횟수 | ontologyProperty = orbits }}
+	{{PropertyMapping | templateProperty = 비행거리 | ontologyProperty = distance | unit = Length }}
+	{{PropertyMapping | templateProperty = 발사위성 | ontologyProperty = satellitesDeployed }}
+	{{PropertyMapping | templateProperty = 미르도킹 | ontologyProperty = mirDockings }}
+	{{PropertyMapping | templateProperty = ISS도킹 | ontologyProperty = issDockings }}
+	{{PropertyMapping | templateProperty = 상태 | ontologyProperty = status }}
+	{{PropertyMapping | templateProperty = 최초비행일 | ontologyProperty = firstFlightStartDate }}
+	{{PropertyMapping | templateProperty = 최초비행일 | ontologyProperty = firstFlightEndDate }}
+	{{PropertyMapping | templateProperty = 최후비행일 | ontologyProperty = lastFlightStartDate }}
+	{{PropertyMapping | templateProperty = 최후비행일 | ontologyProperty = lastFlightEndDate }}
+end}}
+
+
+&lt;!-- Not Yet Mapping
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

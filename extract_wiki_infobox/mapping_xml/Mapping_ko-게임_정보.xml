@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:게임 정보</title>
+        <ns>242</ns>
+        <id>4498</id>
+        <revision>
+          <id>15297</id>
+          <timestamp>2011-09-26T06:00:48Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--게임_정보--&gt;
+{{TemplateMapping
+| mapToClass = VideoGame
+| mappings =
+	{{PropertyMapping | templateProperty = 제목 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 원제목 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 개발사 | ontologyProperty = developer }}
+	{{PropertyMapping | templateProperty = 발행사 | ontologyProperty = publisher }}
+	{{PropertyMapping | templateProperty = 배급사 | ontologyProperty = distributor }}
+	{{PropertyMapping | templateProperty = 디자이너 | ontologyProperty = designer }}
+	{{PropertyMapping | templateProperty = 작곡가 | ontologyProperty = composer }}
+	{{PropertyMapping | templateProperty = 라이선스 | ontologyProperty = license }}
+	{{PropertyMapping | templateProperty = 시리즈 | ontologyProperty = series }}
+	{{PropertyMapping | templateProperty = 엔진 | ontologyProperty = gameEngine }}
+	{{PropertyMapping | templateProperty = 해상도 | ontologyProperty = resolution }}
+	{{PropertyMapping | templateProperty = 버전 | ontologyProperty = latestReleaseVersion }}
+	{{PropertyMapping | templateProperty = 플랫폼 | ontologyProperty = computingPlatform }}
+	{{PropertyMapping | templateProperty = 출시 | ontologyProperty = releaseDate }}
+	{{PropertyMapping | templateProperty = 장르 | ontologyProperty = genre }}
+	{{PropertyMapping | templateProperty = 미디어 | ontologyProperty = computingMedia }}
+	{{PropertyMapping | templateProperty = 요구사양 | ontologyProperty = requirement }}
+	{{PropertyMapping | templateProperty = 입력장치 | ontologyProperty = computingInput }}
+	{{PropertyMapping | templateProperty = 언어 | ontologyProperty = language }}
+end}}
+
+
+&lt;!-- Not Yet Mapping
+| 원작            = 
+| 미리 보기 버전  = 
+| 모드            = 
+| 이용가 등급     = 
+| 아케이드 시스템 = 
+| 사운드          = 
+| 디스플레이      = 
+| 이전작          = 
+| 후속작          = 
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

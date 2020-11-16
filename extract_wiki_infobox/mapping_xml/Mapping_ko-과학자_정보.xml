@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:과학자 정보</title>
+        <ns>242</ns>
+        <id>4528</id>
+        <revision>
+          <id>15370</id>
+          <timestamp>2011-09-28T02:35:30Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">
+&lt;!--과학자_정보--&gt;
+{{TemplateMapping
+| mapToClass = Scientist
+| mappings =
+	{{PropertyMapping | templateProperty = 이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 태어난 날 | ontologyProperty = birthDate }}
+ 	{{PropertyMapping | templateProperty = 태어난 곳 | ontologyProperty = birthPlace }}
+	{{PropertyMapping | templateProperty = 죽은 날 | ontologyProperty = deathDate }}
+	{{PropertyMapping | templateProperty = 죽은 곳 | ontologyProperty = deathPlace }}
+	{{PropertyMapping | templateProperty = 거주지 | ontologyProperty = residence }}
+	{{PropertyMapping | templateProperty = 시민권 | ontologyProperty = citizenship }}
+	{{PropertyMapping | templateProperty = 국적 | ontologyProperty = nationality }}
+	{{PropertyMapping | templateProperty = 수상 | ontologyProperty = award }}
+	{{PropertyMapping | templateProperty = 종교 | ontologyProperty = religion }}
+	{{PropertyMapping | templateProperty = 영향 | ontologyProperty = influencedBy }}
+	{{PropertyMapping | templateProperty = 영향줌 | ontologyProperty = influenced }}
+	{{PropertyMapping | templateProperty = 주요 업적 | ontologyProperty = knownFor }}
+	{{PropertyMapping | templateProperty = 분야 | ontologyProperty = field }}
+	{{PropertyMapping | templateProperty = 지도교수 | ontologyProperty = doctoralAdvisor }}
+	{{PropertyMapping | templateProperty = 지도학생 | ontologyProperty = doctoralStudent }}
+end}}
+
+ 
+&lt;!-- Not Yet Mapping
+|인종      =
+|소속      = 
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

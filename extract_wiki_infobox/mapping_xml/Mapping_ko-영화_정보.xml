@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:영화 정보</title>
+        <ns>242</ns>
+        <id>4591</id>
+        <revision>
+          <id>15476</id>
+          <timestamp>2011-09-30T00:28:59Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">
+&lt;!--영화_정보--&gt;
+{{TemplateMapping
+| mapToClass = Film
+| mappings =
+	{{PropertyMapping | templateProperty = 제목 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 원제 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 감독 | ontologyProperty = director }}
+	{{PropertyMapping | templateProperty = 제작 | ontologyProperty = producer }}
+	{{PropertyMapping | templateProperty = 각본 | ontologyProperty = writer }}
+	{{PropertyMapping | templateProperty = 해설 | ontologyProperty = narrator }}
+	{{PropertyMapping | templateProperty = 출연 | ontologyProperty = starring }}
+	{{PropertyMapping | templateProperty = 음악 | ontologyProperty = musicComposer }}
+	{{PropertyMapping | templateProperty = 촬영 | ontologyProperty = cinematography }}
+	{{PropertyMapping | templateProperty = 촬영장소 | ontologyProperty = place }}
+	{{PropertyMapping | templateProperty = 편집 | ontologyProperty = editing }}
+	{{PropertyMapping | templateProperty = 배급 | ontologyProperty = distributor }}
+	{{PropertyMapping | templateProperty = 나라 | ontologyProperty = country }}
+	{{PropertyMapping | templateProperty = 제작비 | ontologyProperty = budget | unit = Currency }}
+	{{PropertyMapping | templateProperty = 흥행수익 | ontologyProperty = gross | unit = Currency }}
+	{{PropertyMapping | templateProperty = 개봉 | ontologyProperty = releaseDate }}
+	{{PropertyMapping | templateProperty = 시간 | ontologyProperty = runtime | unit = Time }}
+	{{PropertyMapping | templateProperty = 언어 | ontologyProperty = language }}
+	{{PropertyMapping | templateProperty = 원작 | ontologyProperty = basedOn }}
+	{{PropertyMapping | templateProperty = 웹사이트 | ontologyProperty = foaf:homepage }}
+end}}
+
+ 
+&lt;!-- Not Yet Mapping
+| 촬영카메라 = 
+| 촬영필름   =
+| 스튜디오 = 
+| 등급     = 
+| 관객수   = 
+| 전편     = 
+| 후편     = 
+| 평점     = 
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

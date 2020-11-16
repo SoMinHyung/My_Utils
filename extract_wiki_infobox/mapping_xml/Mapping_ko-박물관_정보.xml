@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:박물관 정보</title>
+        <ns>242</ns>
+        <id>4490</id>
+        <revision>
+          <id>15319</id>
+          <timestamp>2011-09-26T06:53:18Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">
+&lt;!--박물관_정보--&gt;
+{{TemplateMapping
+| mapToClass = Museum
+| mappings =
+	{{PropertyMapping | templateProperty = 이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 원어 이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 정식 명칭 | ontologyProperty = foaf:name }}
+       	{{PropertyMapping | templateProperty = 국가 | ontologyProperty = country }}
+	{{PropertyMapping | templateProperty = 유형 | ontologyProperty = type }}
+	{{PropertyMapping | templateProperty = 소재지 | ontologyProperty = location }}
+	{{PropertyMapping | templateProperty = 개관일 | ontologyProperty = foundingDate }}
+	{{PropertyMapping | templateProperty = 폐관일 | ontologyProperty = dissolved }}
+	{{PropertyMapping | templateProperty = 소장유물 | ontologyProperty = collection }}
+	{{PropertyMapping | templateProperty = 홈페이지 | ontologyProperty = foaf:homepage }}
+end}}
+
+&lt;!-- Not Yet Mapping
+| 관리 주체 = 
+| 등록번호  = 
+| 홈페이지  = 
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

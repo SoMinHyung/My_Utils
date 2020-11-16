@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:음악제 정보</title>
+        <ns>242</ns>
+        <id>4561</id>
+        <revision>
+          <id>15434</id>
+          <timestamp>2011-09-29T00:35:56Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">
+&lt;!--음악제_정보--&gt;
+{{TemplateMapping
+| mapToClass = MusicFestival
+| mappings =
+	{{PropertyMapping | templateProperty = 이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 장소 | ontologyProperty = location }}
+	{{PropertyMapping | templateProperty = 개최 년도 | ontologyProperty = startDate }}
+	{{PropertyMapping | templateProperty = 설립 | ontologyProperty = foundingDate }}
+	{{PropertyMapping | templateProperty = 날짜 | ontologyProperty = date }}
+	{{PropertyMapping | templateProperty = 장르 | ontologyProperty = genre }}
+	{{PropertyMapping | templateProperty = 웹 사이트 | ontologyProperty = foaf:homepage }}
+end}}</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

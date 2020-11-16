@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:NBA 팀 정보</title>
+        <ns>242</ns>
+        <id>4629</id>
+        <revision>
+          <id>15529</id>
+          <timestamp>2011-10-13T00:35:54Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">{{TemplateMapping
+| mapToClass = BasketballTeam
+| mappings =
+	{{PropertyMapping | templateProperty = conference | ontologyProperty = league }}
+	{{PropertyMapping | templateProperty = divison | ontologyProperty = league }}
+	{{PropertyMapping | templateProperty = founded | ontologyProperty = foundingYear }}
+	{{PropertyMapping | templateProperty = city | ontologyProperty = location }}
+	{{PropertyMapping | templateProperty = owner | ontologyProperty = owner }}
+	{{PropertyMapping | templateProperty = coach | ontologyProperty = coach }}
+end}}
+
+
+          </text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

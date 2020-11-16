@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:세계유산 정보</title>
+        <ns>242</ns>
+        <id>4478</id>
+        <revision>
+          <id>15340</id>
+          <timestamp>2011-09-28T01:24:25Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--세계유산_정보--&gt;
+{{TemplateMapping
+| mapToClass = WorldHeritageSite
+| mappings =
+	{{PropertyMapping | templateProperty = 이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 영문명 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 불문명 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 소재국 | ontologyProperty = country }}
+
+	{{PropertyMapping | templateProperty = 지정번호 | ontologyProperty = id }}
+	{{PropertyMapping | templateProperty = 지역 | ontologyProperty = region }}
+	{{PropertyMapping | templateProperty = 사이트 | ontologyProperty = foaf:homepage }}
+end}}
+
+&lt;!-- Not Yet Mapping
+|기준     =
+|등록구분 =
+|등록년   = 
+|위험     = 
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

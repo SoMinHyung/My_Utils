@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:농구선수 정보</title>
+        <ns>242</ns>
+        <id>4645</id>
+        <revision>
+          <id>15546</id>
+          <timestamp>2011-10-13T02:58:09Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--농구_선수_정보--&gt;
+{{TemplateMapping
+| mapToClass = BasketballPlayer
+| mappings =
+	{{PropertyMapping | templateProperty = 리그 | ontologyProperty = league }}
+	{{PropertyMapping | templateProperty = 등번호 | ontologyProperty = number }}
+	{{PropertyMapping | templateProperty = 선수명 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 포지션 | ontologyProperty = position }}
+	{{PropertyMapping | templateProperty = 몸무게 | ontologyProperty = weight }}
+	{{PropertyMapping | templateProperty = 소속팀 | ontologyProperty = team }}
+	{{PropertyMapping | templateProperty = 출생일 | ontologyProperty = birthDate }}
+	{{PropertyMapping | templateProperty = 신장 | ontologyProperty = height }}
+	{{PropertyMapping | templateProperty = 이전 소속팀 | ontologyProperty = formerTeam }}
+end}}</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

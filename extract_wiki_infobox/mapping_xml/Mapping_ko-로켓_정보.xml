@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:로켓 정보</title>
+        <ns>242</ns>
+        <id>4510</id>
+        <revision>
+          <id>15309</id>
+          <timestamp>2011-09-26T06:33:54Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--로켓_정보--&gt;
+{{TemplateMapping
+| mapToClass = Rocket
+| mappings =
+	{{PropertyMapping | templateProperty = 이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 용도 | ontologyProperty = rocketFunction }}
+	{{PropertyMapping | templateProperty = 제작자 | ontologyProperty = manufacturer }}
+	{{PropertyMapping | templateProperty = 사용국가 | ontologyProperty = countryOrigin }}
+	{{PropertyMapping | templateProperty = 전장 | ontologyProperty = height | unit = Length }}
+	{{PropertyMapping | templateProperty = 직경 | ontologyProperty = diameter | unit = Length }}
+	{{PropertyMapping | templateProperty = 중량 | ontologyProperty = mass | unit = Mass }}
+	{{PropertyMapping | templateProperty = LEO하중 | ontologyProperty = lowerEarthOrbitPayload | unit = Mass }}
+	{{PropertyMapping | templateProperty = 상태 | ontologyProperty = status }}
+	{{PropertyMapping | templateProperty = 발사장 | ontologyProperty = launchSite }}
+	{{PropertyMapping | templateProperty = 총 발사 수 | ontologyProperty = totalLaunches }}
+	{{PropertyMapping | templateProperty = 성공 수 | ontologyProperty = successfulLaunches }}
+	{{PropertyMapping | templateProperty = 실패 수  | ontologyProperty = failedLaunches }}
+	{{PropertyMapping | templateProperty = 최초발사일 | ontologyProperty = maidenFlight }}
+	{{PropertyMapping | templateProperty = 최후발사일 | ontologyProperty = finalFlight }}
+end}}
+
+
+&lt;!-- Not Yet Mapping
+| 적재중량  = 적재 중량 (페이로드 무게)
+| 운반궤도  = 페이로드를 올리는 궤도: GEO, LEO, 태양동기궤도 등
+| 단수      = 단의 수
+| GEO하중      = 정지 궤도까지의 하중
+| GTO하중      = 정지 트랜스퍼 궤도까지의 하중
+| 부스터 엔진      = 부스터 로켓의 엔진
+| 부스터 추력      = 부스터 로켓의 추력
+| 부스터 비추력      = 부스터 로켓의 비추력
+| 부스터 연소시간  = 부스터 로켓의 총 연소시간
+| 부스터 추진제  = 부스터 로켓의 추진제
+| 엔진      = 1단 로켓의 엔진
+| 추력      = 1단 로켓의 추력
+| 비추력      = 1단 로켓의 비추력
+| 연소시간  = 1단 로켓의 총 연소시간
+| 추진제  = 1단 로켓의 추진제
+| 엔진2      = 2단 로켓의 엔진
+| 추력2      = 2단 로켓의 추력
+| 비추력2      = 2단 로켓의 비추력
+| 연소시간2  = 2단 로켓의 총 연소시간
+| 추진제2 = 2단 로켓의 추진제 
+| 엔진3      = 3단 로켓의 엔진
+| 추력3      = 3단 로켓의 추력
+| 비추력3      = 3단 로켓의 비추력
+| 연소시간3  = 3단 로켓의 총 연소시간
+| 추진제3 = 3단 로켓의 추진제
+| 엔진4      = 4단 로켓의 엔진
+| 추력4      = 4단 로켓의 추력
+| 비추력4     = 4단 로켓의 비추력
+| 연소시간4  = 4단 로켓의 총 연소시간
+| 추진제4 = 4단 로켓의 추진제
+| 엔진5      = 5단 로켓의 엔진
+| 추력5      = 5단 로켓의 추력
+| 비추력5      = 5단 로켓의 비추력
+| 연소시간5  = 5단 로켓의 총 연소시간
+| 추진제5 = 5단 로켓의 추진제
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

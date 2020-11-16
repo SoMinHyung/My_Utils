@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:만화가 정보</title>
+        <ns>242</ns>
+        <id>4502</id>
+        <revision>
+          <id>15310</id>
+          <timestamp>2011-09-26T06:35:35Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">
+&lt;!--만화가_정보--&gt;
+{{TemplateMapping
+| mapToClass = ComicsCreator
+| mappings =
+	{{PropertyMapping | templateProperty = 이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 본명 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 생년 | ontologyProperty = birthDate }}
+	{{PropertyMapping | templateProperty = 출생지 | ontologyProperty = birthPlace }}
+	{{PropertyMapping | templateProperty = 사망 연도  | ontologyProperty = deathDate }}
+	{{PropertyMapping | templateProperty = 사망 장소 | ontologyProperty = deathPlace }}
+	{{PropertyMapping | templateProperty = 국적 | ontologyProperty = nationality }}
+       	{{PropertyMapping | templateProperty = 직업 | ontologyProperty = occupation }}
+    	{{DateIntervalMapping | templateProperty = 활동 기간 | startDateOntologyProperty = activeYearsStartYear | endDateOntologyProperty = activeYearsEndYear }}
+	{{PropertyMapping | templateProperty = 장르 | ontologyProperty = genre }}
+	{{PropertyMapping | templateProperty = 수상 | ontologyProperty = award }}
+	{{PropertyMapping | templateProperty = 공식 웹사이트 | ontologyProperty = foaf:homepage }}
+end}}
+
+&lt;!-- Not Yet Mapping
+|대표작 = 
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

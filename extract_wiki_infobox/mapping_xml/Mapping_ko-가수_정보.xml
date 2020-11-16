@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:가수 정보</title>
+        <ns>242</ns>
+        <id>4631</id>
+        <revision>
+          <id>15531</id>
+          <timestamp>2011-10-13T00:40:47Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--음악가_정보--&gt;
+{{TemplateMapping
+| mapToClass = MusicalArtist
+| mappings =
+	{{PropertyMapping | templateProperty = 이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 한자명 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 영문명 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 본명 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 예명 | ontologyProperty = alias }}
+	{{PropertyMapping | templateProperty = 출생일 | ontologyProperty = birthDate }}
+	{{PropertyMapping | templateProperty = 출생지 | ontologyProperty = birthPlace }}
+	{{PropertyMapping | templateProperty = 사망일 | ontologyProperty = deathDate }}
+	{{PropertyMapping | templateProperty = 사망지 | ontologyProperty = deathPlace }}
+	{{PropertyMapping | templateProperty = 국적 | ontologyProperty = nationality }}
+	{{PropertyMapping | templateProperty = 배우자 | ontologyProperty = spouse }}
+	{{PropertyMapping | templateProperty = 장르 | ontologyProperty = genre }}
+      	{{PropertyMapping | templateProperty = 직업 | ontologyProperty = occupation }}
+	{{PropertyMapping | templateProperty = 악기 | ontologyProperty = instrument }}
+	{{DateIntervalMapping | templateProperty = 활동 시기 | startDateOntologyProperty = activeYearsStartYear | endDateOntologyProperty = activeYearsEndYear }}
+	{{PropertyMapping | templateProperty = 레이블 | ontologyProperty = recordLabel }}
+	{{PropertyMapping | templateProperty = 소속사 | ontologyProperty = owningOrganisation }}
+	{{PropertyMapping | templateProperty = 관련 활동 | ontologyProperty = associatedAct }}
+	{{PropertyMapping | templateProperty = 웹사이트 | ontologyProperty = foaf:homepage }}
+end}}
+
+ 
+&lt;!-- Not Yet Mapping
+| 가족     = 
+| 소속팀   = 
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

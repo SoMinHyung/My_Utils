@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:통화 정보</title>
+        <ns>242</ns>
+        <id>4600</id>
+        <revision>
+          <id>15486</id>
+          <timestamp>2011-09-30T01:13:28Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--통화_정보--&gt;
+{{TemplateMapping
+| mapToClass = Currency
+| mappings =
+	{{PropertyMapping | templateProperty = 이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 현지어 이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 사용국 | ontologyProperty = usingCountry }}
+	{{PropertyMapping | templateProperty = 비공식 사용국 | ontologyProperty = usingCountry }}
+
+end}}
+
+ 
+&lt;!-- Not Yet Mapping
+|ISO = 
+|기호 = 
+|인플레이션 = 
+|인플레이션 척도 = 
+|고정환율 = 
+|도입일 = 
+|폐지일 = 
+|ERM 가입일 = 
+|ERM 탈퇴일 = 
+|ERM 고정환율 시작 = 
+|유로 대체일 = 
+|ERM 고정환율 = 
+|ERM 부동범위 = 
+|상위단위이름1 = 
+|상위단위비율1 = 
+|상위단위기호1 = 
+|상위단위이름2 = 
+|상위단위비율2 = 
+|상위단위기호2 = 
+|보조단위이름1 = 
+|보조단위비율1 = 
+|보조단위기호1 = 
+|보조단위이름2 = 
+|보조단위비율2 = 
+|보조단위기호2 = 
+|보조단위이름3 = 
+|보조단위비율3 = 
+|보조단위기호3 = 
+|동전 = 
+|동전 문서 = 
+|지폐 = 
+|지폐 문서 = 
+|발행처 = 
+|인쇄처 = 
+|조폐국 = 
+|주석 = 
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

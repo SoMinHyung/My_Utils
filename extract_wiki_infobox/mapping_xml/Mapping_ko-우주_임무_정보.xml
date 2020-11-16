@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:우주 임무 정보</title>
+        <ns>242</ns>
+        <id>4598</id>
+        <revision>
+          <id>15484</id>
+          <timestamp>2011-09-30T01:02:54Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--우주_임무_정보--&gt;
+{{TemplateMapping
+| mapToClass = SpaceMission
+| mappings =
+	{{PropertyMapping | templateProperty = 우주선 이름 | ontologyProperty = spacecraft }}
+	{{PropertyMapping | templateProperty = 왕복선 이름 | ontologyProperty = shuttle }}
+	{{PropertyMapping | templateProperty = 사령선 | ontologyProperty = commandModule }}
+	{{PropertyMapping | templateProperty = 기계선 | ontologyProperty = serviceModule }}
+	{{PropertyMapping | templateProperty = 달 착륙선 | ontologyProperty = lunarModule }}
+	{{PropertyMapping | templateProperty = 보조 로켓 | ontologyProperty = booster }}
+	{{PropertyMapping | templateProperty = 호출 부호 | ontologyProperty = callSign }}
+	{{PropertyMapping | templateProperty = 발사대 | ontologyProperty = launchPad }}
+	{{PropertyMapping | templateProperty = 발사 날짜  | ontologyProperty = launchDate }}
+	{{PropertyMapping | templateProperty = 우주유영 시작 | ontologyProperty = spacewalkBegin }}
+	{{PropertyMapping | templateProperty = 우주유영 종료 | ontologyProperty = spacewalkEnd }}
+	{{PropertyMapping | templateProperty = 달 표면 시간  | ontologyProperty = lunarSurfaceTime | unit = Time }}
+	{{PropertyMapping | templateProperty = 착륙 | ontologyProperty = landingDate }}
+	{{PropertyMapping | templateProperty = 궤도 | ontologyProperty = numberOfOrbits }}
+	{{PropertyMapping | templateProperty = 달 궤도 | ontologyProperty = orbitalInclination }}
+	{{PropertyMapping | templateProperty = 임무 기간 | ontologyProperty = missionDuration | unit = Time }}
+	{{PropertyMapping | templateProperty = 우주선 질량 | ontologyProperty = mass | unit = Mass }}
+	{{PropertyMapping | templateProperty = 승무원 수| ontologyProperty = crewMember }}
+	{{PropertyMapping | templateProperty = 이전 임무 | ontologyProperty = previousMission }}
+	{{PropertyMapping | templateProperty = 이후 임무 | ontologyProperty = nextMission }}
+	{{PropertyMapping | templateProperty = 임무 이름 | ontologyProperty = foaf:name }}
+end}}
+
+ 
+&lt;!-- Not Yet Mapping
+|휘장 = 
+|휘장 크기 = 
+|우주선 종류 = 
+|달 착륙 = 
+|착륙 지점 = 
+|달 이동 자동차 = 
+|월석 질량 = 
+|원지점 = 
+|근지점 = 
+|원월점 = 
+|근월점 = 
+|주기 = 
+|높이 = 
+|기울기 = 
+|이동 거리
+|sso burn = 
+|최대 속력 = 
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

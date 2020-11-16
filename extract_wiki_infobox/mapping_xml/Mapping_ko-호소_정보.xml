@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:호소 정보</title>
+        <ns>242</ns>
+        <id>4607</id>
+        <revision>
+          <id>15505</id>
+          <timestamp>2011-10-06T05:43:31Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--호수_정보--&gt;
+{{TemplateMapping
+| mapToClass = Lake
+| mappings =
+	{{PropertyMapping | templateProperty = 호수_이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 영어_이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 나라 | ontologyProperty = country }}
+	{{PropertyMapping | templateProperty = 지방 | ontologyProperty = region }}
+	{{PropertyMapping | templateProperty = 도시 | ontologyProperty = city }}
+	{{PropertyMapping | templateProperty = 섬 | ontologyProperty = island }}
+	{{PropertyMapping | templateProperty = 위치 | ontologyProperty = location }}
+	{{GeocoordinatesMapping | coordinates = 좌표 }}
+	{{GeocoordinatesMapping | latitudeDegrees = 위도도  | latitudeMinutes = 위도분  | latitudeSeconds = 위도초  | latitudeDirection = 남북  | longitudeDegrees = 경도도  | longitudeMinutes = 경도분  | longitudeSeconds = 경도초  | longitudeDirection = 동서 }}
+	{{PropertyMapping | templateProperty = 호수_유형 | ontologyProperty = type }}
+	{{PropertyMapping | templateProperty = 유입 | ontologyProperty = inflow }}
+	{{PropertyMapping | templateProperty = 유출 | ontologyProperty = outflow }}
+	{{PropertyMapping | templateProperty = 평균_고도 | ontologyProperty = elevation | unit = metre }}
+	{{PropertyMapping | templateProperty = 유역_면적 | ontologyProperty = areaOfCatchment | unit = squareKilometre }}
+	{{PropertyMapping | templateProperty = 최대_길이 | ontologyProperty = length | unit = kilometre }}
+	{{PropertyMapping | templateProperty = 최대_너비 | ontologyProperty = width | unit = kilometre }}
+	{{PropertyMapping | templateProperty = 표면_면적 | ontologyProperty = areaTotal | unit = squareKilometre }}
+	{{PropertyMapping | templateProperty = 평균_수심 | ontologyProperty = depth | unit = metre }}
+	{{PropertyMapping | templateProperty = 수량 | ontologyProperty = volume | unit = cubicMetre }}
+	{{PropertyMapping | templateProperty = 호수_둘레 | ontologyProperty = shoreLength | unit = kilometre }}
+	{{PropertyMapping | templateProperty = 결빙_이력 | ontologyProperty = frozen }}
+end}}
+
+ 
+&lt;!-- Not Yet Mapping
+|구역 = 
+|최대_고도 = 
+|최소_고도 = 
+|최소_수심 = 
+|체류_기간 = 
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

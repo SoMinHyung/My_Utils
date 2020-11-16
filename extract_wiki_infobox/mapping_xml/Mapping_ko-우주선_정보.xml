@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:우주선 정보</title>
+        <ns>242</ns>
+        <id>4599</id>
+        <revision>
+          <id>15485</id>
+          <timestamp>2011-09-30T01:09:43Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--우주선_정보--&gt;
+{{TemplateMapping
+| mapToClass = Spacecraft
+| mappings =
+	{{PropertyMapping | templateProperty = 이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 발사일 | ontologyProperty = launch }}
+	{{PropertyMapping | templateProperty = 중량 | ontologyProperty = totalMass }}
+	{{PropertyMapping | templateProperty = 웹사이트 | ontologyProperty = foaf:homepage }}
+	{{PropertyMapping | templateProperty = 승무원 | ontologyProperty = crew }}
+end}}
+
+ 
+&lt;!-- Not Yet Mapping
+| 기관 = [[나사]]/[[유럽 우주 항공국|ESA]]/[[이탈리아 우주국|ASI]]
+| 주계약자 = ?
+| 임무유형 = 저공 비행, 인공위성 및 랜더
+| 발사체 = Titan IV-B/Centaur launch vehicle
+| 발사장소 = 
+| 접근천체 = [[금성]], [[지구]], [[목성]], 그리고 '''[[토성]]'''
+| 목표천체 = 
+| 궤도진입일 = 1/1/1001
+| 접근통과일 =
+| 착륙일 =
+| 개발비용 =
+| 발사비용 =
+| 파괴 = 
+| 임무기간 = 1-2-56 to 2-3-56
+| NSSDC_ID = 1997-061A
+| 크기 =
+| 전장 =
+| 전폭 =
+| 전고 = 
+| 출력 = 
+| 궤도고도 = 
+| 반장축 = 
+| 경도 = 경도 (정지 궤도인 경우)
+| 근지점 = 근지점
+| 원지점 = 원지점
+| 주기 = 궤도 주기
+| 경사각 = 경사각
+| 이심률 = 이심률
+| 트랜스폰더 = 
+| 궤도 = [[정지 궤도]] [[LEO]] [[태양동기궤도]]
+| 해상도 = 
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

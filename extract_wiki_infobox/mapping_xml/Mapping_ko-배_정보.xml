@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:배 정보</title>
+        <ns>242</ns>
+        <id>4491</id>
+        <revision>
+          <id>15320</id>
+          <timestamp>2011-09-26T06:58:06Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--배_정보--&gt;
+{{TemplateMapping
+| mapToClass = Ship
+| mappings =
+	{{PropertyMapping | templateProperty = 이름 | ontologyProperty = foaf:name }}
+       	{{PropertyMapping | templateProperty = 국적 | ontologyProperty = country }}
+       	{{PropertyMapping | templateProperty = 제작자 | ontologyProperty = builder }}
+       	{{PropertyMapping | templateProperty = 운영자 | ontologyProperty = operator }}
+    	{{PropertyMapping | templateProperty = 가격  | ontologyProperty = cost | unit = Currency }}
+       	{{PropertyMapping | templateProperty = 선종 | ontologyProperty = type }}
+
+end}}
+
+&lt;!-- Not Yet Mapping
+| 모항       = 모항
+| 선급       = 선급
+| 선급 부호  = 선급 부호
+| 진수       = 진수 날짜
+| 취역       = 취역 날짜
+| 운항       = 첫 운항일
+| 퇴역       = 퇴역한 날짜
+| 배수량     = 배수량 정보
+| 수용량     = (상선의) 적재용량
+| 전장       = 배의 길이
+| 선폭       = 배의 폭
+| 흘수       = 흘수
+| 추진       = 추진 동력
+| 발전       = 발전
+| 속력       = 배의 속력
+| 깊이       = (잠수함의) 최저 잠수 깊이
+| 거리       = 항속거리(한 번 실은 연료로 기본 속도로 이동하는 거리)
+| 장갑       = 장갑 두께
+| 정원       = 승무원 수
+| 승객       = 승객 수
+| 무장       = 탑재 무기 정보
+| 탐지       = 탐지 장비 정보
+| 전자전     = 전자전(ER) 장비 정보
+| 함재기     = 함재기 정보
+| 보트       = 적재한 소형 배 및 기타 탈 것에 대한 정보
+| 항공장비   = 탑재한 항공 관련 장비 정보
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

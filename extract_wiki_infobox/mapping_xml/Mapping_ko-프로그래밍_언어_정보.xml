@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:프로그래밍 언어 정보</title>
+        <ns>242</ns>
+        <id>4616</id>
+        <revision>
+          <id>15515</id>
+          <timestamp>2011-10-06T06:39:17Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--프로그래밍_언어_정보--&gt;
+{{TemplateMapping
+| mapToClass = ProgrammingLanguage
+| mappings =
+	{{PropertyMapping | templateProperty = 이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 설계자 | ontologyProperty = designer }}
+	{{PropertyMapping | templateProperty = 개발자 | ontologyProperty = developer }}
+	{{PropertyMapping | templateProperty = 최근 버전 | ontologyProperty = latestReleaseVersion }}
+	{{PropertyMapping | templateProperty = 최근 버전 | ontologyProperty = latestReleaseDate }}
+	{{PropertyMapping | templateProperty = 영향을 준 언어 | ontologyProperty = influenced }}
+	{{PropertyMapping | templateProperty = 영향을 받은 언어 | ontologyProperty = influencedBy }}
+	{{PropertyMapping | templateProperty = 웹사이트 | ontologyProperty = foaf:homepage }}
+	{{PropertyMapping | templateProperty = 라이선스 | ontologyProperty = license }}
+end}}
+ 
+&lt;!-- Not Yet Mapping
+|패러다임 = 
+|미리보기 버전 = 
+|형 체계 = 
+|구현체 = 
+|방언 = 
+|운영 체제 =
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

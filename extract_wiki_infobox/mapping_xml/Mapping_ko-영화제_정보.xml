@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:영화제 정보</title>
+        <ns>242</ns>
+        <id>4592</id>
+        <revision>
+          <id>15576</id>
+          <timestamp>2011-10-18T01:50:16Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--영화제_정보--&gt;
+{{TemplateMapping
+| mapToClass = FilmFestival
+| mappings =
+	{{PropertyMapping | templateProperty = 이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 영어명 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 현지명 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 약자표기 | ontologyProperty = abbreviation }}
+	{{PropertyMapping | templateProperty = 개막작 | ontologyProperty = openingFilm }}
+	{{PropertyMapping | templateProperty = 폐막작 | ontologyProperty = closingFilm }}
+	{{PropertyMapping | templateProperty = 영화 | ontologyProperty = film }}
+	{{PropertyMapping | templateProperty = 감독 | ontologyProperty = director }}
+	{{PropertyMapping | templateProperty = 연출자 | ontologyProperty = producer }}
+	{{PropertyMapping | templateProperty = 대본 | ontologyProperty = writer }}
+	{{PropertyMapping | templateProperty = 주연 | ontologyProperty = starring }}
+	{{PropertyMapping | templateProperty = 언어 | ontologyProperty = language }}
+	{{DateIntervalMapping | templateProperty = 축제기간 | startDateOntologyProperty = startDate | endDateOntologyProperty = endDate }}
+	{{PropertyMapping | templateProperty = 장소 | ontologyProperty = location }}
+	{{PropertyMapping | templateProperty = 상 | ontologyProperty = award }}
+    	{{PropertyMapping | templateProperty = 설립일 | ontologyProperty = foundingDate }}
+
+	{{PropertyMapping | templateProperty = 웹사이트 | ontologyProperty = foaf:homepage }}
+end}}
+
+ 
+&lt;!-- Not Yet Mapping
+| 그림          = 
+| 그림설명      = 
+| 수상자        = 
+| 주최          = 
+| 출품작수      = 
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

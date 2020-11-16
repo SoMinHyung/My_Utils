@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:예술가 정보</title>
+        <ns>242</ns>
+        <id>4522</id>
+        <revision>
+          <id>15489</id>
+          <timestamp>2011-09-30T02:30:28Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--예술가_정보--&gt;
+{{TemplateMapping
+| mapToClass = Artist
+| mappings =
+	{{PropertyMapping | templateProperty = 이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 본명 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 출생일 | ontologyProperty = birthDate }}
+ 	{{PropertyMapping | templateProperty = 출생지 | ontologyProperty = birthPlace }}
+	{{PropertyMapping | templateProperty = 사망일 | ontologyProperty = deathDate }}
+	{{PropertyMapping | templateProperty = 사망지 | ontologyProperty = deathPlace }}
+	{{PropertyMapping | templateProperty = 국적 | ontologyProperty = nationality }}
+	{{PropertyMapping | templateProperty = 수상 | ontologyProperty = award }}
+end}}
+
+ 
+&lt;!-- Not Yet Mapping
+| 분야   = 
+| 교육   = 
+| 사조   = 
+| 대표작 = 
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

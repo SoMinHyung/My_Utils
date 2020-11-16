@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:호주 주, 준주 정보</title>
+        <ns>242</ns>
+        <id>4614</id>
+        <revision>
+          <id>15513</id>
+          <timestamp>2011-10-06T06:32:59Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--호주_주,_준주_정보--&gt;
+{{TemplateMapping
+| mapToClass = AdministrativeRegion
+| mappings =
+	{{ConstantMapping | ontologyProperty = country | value = Australia }}
+	{{PropertyMapping | templateProperty = 이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 원이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 별명 | ontologyProperty = foaf:nick }}
+	{{PropertyMapping | templateProperty = 표어  | ontologyProperty = motto }}
+	{{PropertyMapping | templateProperty = 통치자 이름 | ontologyProperty = leaderName }}
+	{{PropertyMapping | templateProperty = 전체 인구  | ontologyProperty = populationTotal }}
+	{{PropertyMapping | templateProperty = 인구밀도 | ontologyProperty = populationDensity | unit = inhabitantsPerSquareKilometre }}
+	{{PropertyMapping | templateProperty = 전체 면적 | ontologyProperty = areaTotal | unit = squareKilometre }}
+	{{PropertyMapping | templateProperty = 토지 면적 | ontologyProperty = areaLand | unit = squareKilometre }}
+	{{PropertyMapping | templateProperty = 물 면적 | ontologyProperty = areaWater | unit = squareKilometre }}
+	{{PropertyMapping | templateProperty = 최고 높이  | ontologyProperty = maximumElevation | unit = metre }}
+	{{PropertyMapping | templateProperty = 최저 높이 | ontologyProperty = minimumElevation | unit = metre }}
+	{{PropertyMapping | templateProperty = 웹사이트 | ontologyProperty = foaf:homepage }}
+	{{PropertyMapping | templateProperty = 주도 | ontologyProperty = capital }}
+end}}</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

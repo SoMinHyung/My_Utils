@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:텔레비전 에피소드 정보</title>
+        <ns>242</ns>
+        <id>4619</id>
+        <revision>
+          <id>15518</id>
+          <timestamp>2011-10-06T06:54:15Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">{{TemplateMapping
+| mapToClass = TelevisionEpisode
+| mappings =
+	{{PropertyMapping | templateProperty = 에피소드 이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 프로그램 이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 시즌 | ontologyProperty = seasonNumber }}
+	{{PropertyMapping | templateProperty = 화수 | ontologyProperty = episodeNumber }}
+	{{PropertyMapping | templateProperty = 제작 | ontologyProperty = producer }}
+	{{PropertyMapping | templateProperty = 각본 | ontologyProperty = writer }}
+	{{PropertyMapping | templateProperty = 감독 | ontologyProperty = director }}
+	{{PropertyMapping | templateProperty = 음악 | ontologyProperty = musicComposer }}
+	{{PropertyMapping | templateProperty = 촬영감독 | ontologyProperty = photographer }}
+	{{PropertyMapping | templateProperty = 게스트 | ontologyProperty = guest }}
+	{{PropertyMapping | templateProperty = 프로듀서 | ontologyProperty = producer }}
+	{{PropertyMapping | templateProperty = 편집 | ontologyProperty = editor }}
+	{{PropertyMapping | templateProperty = 최초 방영일 | ontologyProperty = releaseDate }}
+	{{PropertyMapping | templateProperty = 전 에피소드 | ontologyProperty = previousWork }}
+	{{PropertyMapping | templateProperty = 다음 에피소드 | ontologyProperty = subsequentWork }}
+end}}</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

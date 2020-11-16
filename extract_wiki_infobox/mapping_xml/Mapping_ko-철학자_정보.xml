@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:철학자 정보</title>
+        <ns>242</ns>
+        <id>4537</id>
+        <revision>
+          <id>15389</id>
+          <timestamp>2011-09-28T03:25:02Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">
+&lt;!--철학자_정보--&gt;
+{{TemplateMapping
+| mapToClass = Philosopher
+| mappings =
+	{{PropertyMapping | templateProperty = 이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 출생일 | ontologyProperty = birthDate }}
+	{{PropertyMapping | templateProperty = 출생일 | ontologyProperty = birthYear }}
+	{{PropertyMapping | templateProperty = 출생지 | ontologyProperty = birthPlace }}
+	{{PropertyMapping | templateProperty = 사망일 | ontologyProperty = deathDate }}
+	{{PropertyMapping | templateProperty = 사망일 | ontologyProperty = deathYear }}
+	{{PropertyMapping | templateProperty = 사망지 | ontologyProperty = deathPlace }}
+	{{PropertyMapping | templateProperty = 지역 | ontologyProperty = region }}
+	{{PropertyMapping | templateProperty = 시대 | ontologyProperty = era }}
+	{{PropertyMapping | templateProperty = 학파 | ontologyProperty = philosophicalSchool }}
+	{{PropertyMapping | templateProperty = 연구분야 | ontologyProperty = mainInterest }}
+	{{PropertyMapping | templateProperty = 주요업적  | ontologyProperty = notableIdea }}
+	{{PropertyMapping | templateProperty = 영향받음 | ontologyProperty = influencedBy }}
+	{{PropertyMapping | templateProperty = 영향줌 | ontologyProperty = influenced }}
+end}}</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

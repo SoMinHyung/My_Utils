@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:프로그램 정보</title>
+        <ns>242</ns>
+        <id>4615</id>
+        <revision>
+          <id>15514</id>
+          <timestamp>2011-10-06T06:34:23Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--소프트웨어_정보--&gt;
+{{TemplateMapping 
+| mapToClass = Software 
+| mappings =
+	{{PropertyMapping | templateProperty = 이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 원저자 | ontologyProperty = author }}
+	{{PropertyMapping | templateProperty = 개발자 | ontologyProperty = developer }}
+	{{PropertyMapping | templateProperty = 발표일 | ontologyProperty = releaseDate }}
+	{{PropertyMapping | templateProperty = 최근 버전 | ontologyProperty = latestReleaseVersion }}
+	{{PropertyMapping | templateProperty = 최근 버전 출시일 | ontologyProperty = latestReleaseDate }}
+	{{PropertyMapping | templateProperty = 미리보기 버전 | ontologyProperty = latestPreviewVersion }}
+	{{PropertyMapping | templateProperty = 미리보기 버전 출시일 | ontologyProperty = latestPreviewDate }}
+	{{PropertyMapping | templateProperty = 상태 | ontologyProperty = status}}
+	{{PropertyMapping | templateProperty = 프로그래밍 언어 | ontologyProperty = programmingLanguage }}
+	{{PropertyMapping | templateProperty = 운영체제 | ontologyProperty = operatingSystem }}
+	{{PropertyMapping | templateProperty = 플랫폼 | ontologyProperty = computingPlatform }}
+	{{PropertyMapping | templateProperty = 크기 | ontologyProperty = fileSize | unit = megabyte }}
+	{{PropertyMapping | templateProperty = 상태 | ontologyProperty = status }}
+	{{PropertyMapping | templateProperty = 라이선스 | ontologyProperty = license }}
+	{{PropertyMapping | templateProperty = 언어 | ontologyProperty = language }}
+	{{PropertyMapping | templateProperty = 종류 | ontologyProperty = genre }}
+	{{PropertyMapping | templateProperty = 웹사이트 | ontologyProperty = foaf:homepage }}
+end}}
+
+
+&lt;!-- Not Yet Mapping
+| 화면                 = 
+| 지원중단             = 
+| 엔진                 = 
+| 표준                 = 
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

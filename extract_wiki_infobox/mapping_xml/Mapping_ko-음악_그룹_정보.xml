@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:음악 그룹 정보</title>
+        <ns>242</ns>
+        <id>4495</id>
+        <revision>
+          <id>15357</id>
+          <timestamp>2011-09-28T02:02:45Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--음악_그룹_정보--&gt;
+{{TemplateMapping
+| mapToClass = Band
+| mappings =
+	{{PropertyMapping | templateProperty = 이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 국가 | ontologyProperty = country }}
+	{{PropertyMapping | templateProperty = 출신 지역 | ontologyProperty = birthPlace }}   
+	{{PropertyMapping | templateProperty = 다른 이름 | ontologyProperty = alias }}
+	{{PropertyMapping | templateProperty = 장르 | ontologyProperty = genre }}
+	{{PropertyMapping | templateProperty = 소속사 | ontologyProperty = owningOrganisation }}
+	{{PropertyMapping | templateProperty = 레이블 | ontologyProperty = recordLabel }}
+	{{DateIntervalMapping | templateProperty = 활동 시기 | startDateOntologyProperty = activeYearsStartYear | endDateOntologyProperty = activeYearsEndYear }}
+	{{PropertyMapping | templateProperty = 웹사이트 | ontologyProperty = foaf:homepage }}
+	{{PropertyMapping | templateProperty = 구성원 | ontologyProperty = currentMember }}
+	{{PropertyMapping | templateProperty = 전 구성원 | ontologyProperty = pastMember }}
+	{{PropertyMapping | templateProperty = 관련 활동 | ontologyProperty = associatedAct }}
+end}}</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

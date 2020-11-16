@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:철도 노선 정보</title>
+        <ns>242</ns>
+        <id>4664</id>
+        <revision>
+          <id>51402</id>
+          <timestamp>2016-08-01T14:39:25Z</timestamp>
+          <contributor>
+            <username>VladimirAlexiev</username>
+            <id>40570</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--철도_노선_정보--&gt;
+{{TemplateMapping
+| mapToClass = RailwayLine
+| mappings =
+	{{PropertyMapping | templateProperty = 노선명 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 종류 | ontologyProperty = type }}
+	{{PropertyMapping | templateProperty = system | ontologyProperty = isPartOf }}
+	{{PropertyMapping | templateProperty = 상태 | ontologyProperty = status }}
+	{{PropertyMapping | templateProperty = 나라 | ontologyProperty = country }}
+	{{PropertyMapping | templateProperty = 기점 | ontologyProperty = routeStart }}
+	{{PropertyMapping | templateProperty = 종점 | ontologyProperty = routeEnd }}
+	{{PropertyMapping | templateProperty = 역수 | ontologyProperty = numberOfStations }}
+	{{PropertyMapping | templateProperty = 이용자 | ontologyProperty = passengersPerDay }}
+	{{PropertyMapping | templateProperty = 개통일 | ontologyProperty = openingDate }}
+	{{PropertyMapping | templateProperty = 폐지일 | ontologyProperty = closingDate }}
+	{{PropertyMapping | templateProperty = 소유자 | ontologyProperty = owner }}
+	{{PropertyMapping | templateProperty = 운영자 | ontologyProperty = operator }}
+	{{PropertyMapping | templateProperty = stock | ontologyProperty = railwayRollingStock }}
+	{{PropertyMapping | templateProperty = 영업최고속도 | ontologyProperty = speedLimit | unit = kilometrePerHour }}
+	{{PropertyMapping | templateProperty = 영업최고속도 | ontologyProperty = speedLimit | unit = kilometrePerHour }}
+
+	{{ PropertyMapping | templateProperty = 설계최고속도 | ontologyProperty = speedLimit | unit = milePerHour }}
+end}}
+
+&lt;!-- Not Yet Mapping
+|체계 = 
+|노선 = 
+|영업거리 = 
+|실거리 = 
+|시설연장 = 
+|궤간 = 
+|궤도 = 
+|선로 = 
+|전철화 = 
+|신호 = 
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

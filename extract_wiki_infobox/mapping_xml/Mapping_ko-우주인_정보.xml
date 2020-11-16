@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:우주인 정보</title>
+        <ns>242</ns>
+        <id>4660</id>
+        <revision>
+          <id>15570</id>
+          <timestamp>2011-10-18T00:26:08Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--우주인_정보--&gt;
+{{TemplateMapping
+| mapToClass = Astronaut
+| mappings =
+	{{PropertyMapping | templateProperty = 종류 | ontologyProperty = type }}
+	{{PropertyMapping | templateProperty = 상태 | ontologyProperty = status }}
+	{{PropertyMapping | templateProperty = 체류시간 | ontologyProperty = timeInSpace | unit = Time }}
+	{{PropertyMapping | templateProperty = 선발 | ontologyProperty = selection }}
+	{{PropertyMapping | templateProperty = 임무 | ontologyProperty = mission }}
+	{{PropertyMapping | templateProperty = 은퇴일 | ontologyProperty = retired }}
+	{{PropertyMapping | templateProperty = 이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 국적 | ontologyProperty = nationality }}
+	{{PropertyMapping | templateProperty = 출생일 | ontologyProperty = birthDate }}
+	{{PropertyMapping | templateProperty = 출생지 | ontologyProperty = birthPlace }}
+	{{PropertyMapping | templateProperty = 사망일 | ontologyProperty = deathDate }}
+	{{PropertyMapping | templateProperty = 사망지 | ontologyProperty = deathPlace }}
+	{{PropertyMapping | templateProperty = 직업 | ontologyProperty = occupation }}
+	{{PropertyMapping | templateProperty = 현직업 | ontologyProperty = occupation }}
+	{{ PropertyMapping | templateProperty = 부모 | ontologyProperty = parent }}
+	{{PropertyMapping | templateProperty = 전직업 | ontologyProperty = occupation }}
+end}}
+
+
+&lt;!-- Not Yet Mapping
+|계급                = 군인일 경우 해당
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

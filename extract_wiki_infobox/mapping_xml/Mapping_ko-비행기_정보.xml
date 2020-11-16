@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:비행기 정보</title>
+        <ns>242</ns>
+        <id>4500</id>
+        <revision>
+          <id>15326</id>
+          <timestamp>2011-09-28T00:54:35Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--비행기_정보--&gt;
+{{TemplateMapping
+| mapToClass = Aircraft
+| mappings =
+	{{PropertyMapping | templateProperty = 이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 기종 | ontologyProperty = type }}
+	{{PropertyMapping | templateProperty = 제작 | ontologyProperty = manufacturer }}
+	{{PropertyMapping | templateProperty = 첫비행 | ontologyProperty = introductionDate }}
+	{{PropertyMapping | templateProperty = 도입 | ontologyProperty = introductionDate }}
+	{{PropertyMapping | templateProperty = 은퇴 | ontologyProperty = retired }}
+	{{DateIntervalMapping | templateProperty = 생산 시기 | startDateOntologyProperty = productionStartDate | endDateOntologyProperty = productionEndDate }}
+	{{DateIntervalMapping | templateProperty = 생산 시기 | startDateOntologyProperty = productionStartYear | endDateOntologyProperty = productionEndYear }}
+	{{PropertyMapping | templateProperty = 생산 대수 | ontologyProperty = numberBuilt }}
+	{{PropertyMapping | templateProperty = 사업 비용 | ontologyProperty = programCost | unit = Currency }}
+	{{PropertyMapping | templateProperty = 대당 가격 | ontologyProperty = unitCost | unit = Currency }}
+	{{PropertyMapping | templateProperty = 개발 원형 | ontologyProperty = predecessor }}
+	{{PropertyMapping | templateProperty = 파생형 | ontologyProperty = successor }}
+	{{ PropertyMapping | templateProperty = 웹사이트 | ontologyProperty = foaf:homepage }}
+end}}
+
+&lt;!-- Not Yet Mapping
+| 현황        =
+| 주요 사용자 = 
+| 기타 사용자 = 
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

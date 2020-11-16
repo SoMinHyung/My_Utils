@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:자동차 정보</title>
+        <ns>242</ns>
+        <id>4534</id>
+        <revision>
+          <id>15385</id>
+          <timestamp>2011-09-28T03:13:37Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--자동차_정보--&gt;
+{{TemplateMapping
+| mapToClass = Automobile
+| mappings =
+	{{PropertyMapping | templateProperty =이름 | ontologyProperty =foaf:name }}
+	{{PropertyMapping | templateProperty = 제조사 | ontologyProperty = manufacturer }}
+	{{PropertyMapping | templateProperty = 모회사 | ontologyProperty =parentCompany }}
+	{{PropertyMapping | templateProperty =별명 | ontologyProperty =foaf:nick }}
+	{{PropertyMapping | templateProperty =생산년도 | ontologyProperty =productionStartYear }}
+	{{PropertyMapping | templateProperty =출시년도 | ontologyProperty =modelStartYear }}
+	{{DateIntervalMapping | templateProperty = 판매기간 | startDateOntologyProperty = modelStartDate | endDateOntologyProperty = modelEndDate }}
+	{{PropertyMapping | templateProperty =조립 | ontologyProperty =assembly }}
+	{{PropertyMapping | templateProperty =선행차량 | ontologyProperty =predecessor }}
+	{{PropertyMapping | templateProperty =후속차량 | ontologyProperty = successor }}
+	{{PropertyMapping | templateProperty =차체형식 | ontologyProperty = bodyStyle }}
+	{{PropertyMapping | templateProperty =차종 | ontologyProperty =class }}
+	{{PropertyMapping | templateProperty =엔진 | ontologyProperty =engine }}
+	{{PropertyMapping | templateProperty = 최고출력 | ontologyProperty = powerOutput | unit = Power }}
+	{{PropertyMapping | templateProperty = 전장 | ontologyProperty = length | unit = Length }}
+	{{PropertyMapping | templateProperty = 전폭 | ontologyProperty = width | unit = Length }}
+	{{PropertyMapping | templateProperty = 전고 | ontologyProperty = height | unit = Length }}
+	{{PropertyMapping | templateProperty = 전비중량 | ontologyProperty = weight | unit = Mass }}
+	{{PropertyMapping | templateProperty = 연료적재량 | ontologyProperty = fuelCapacity | unit = Volume }}
+	{{PropertyMapping | templateProperty = 설계자 | ontologyProperty = designer }}
+	{{PropertyMapping | templateProperty = 설계자 | ontologyProperty = designCompany }}
+
+
+end}}
+ 
+&lt;!-- Not Yet Mapping
+|구동방식   = 
+|차대       =
+|최대토크   =
+|변속기     = 
+|차축거리   = 
+|연료       =
+|관련차량   =
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

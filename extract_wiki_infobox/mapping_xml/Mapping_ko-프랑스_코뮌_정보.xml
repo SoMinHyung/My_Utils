@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:프랑스 코뮌 정보</title>
+        <ns>242</ns>
+        <id>4617</id>
+        <revision>
+          <id>15516</id>
+          <timestamp>2011-10-06T06:44:05Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--프랑스_코뮌_정보--&gt;
+{{TemplateMapping
+| mapToClass = Settlement
+| mappings =
+	{{ConstantMapping | ontologyProperty = country | value = France }}
+	{{PropertyMapping | templateProperty = 이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 레지옹 | ontologyProperty = region }}
+	{{PropertyMapping | templateProperty = 데파르트망 | ontologyProperty = department }}
+	{{PropertyMapping | templateProperty = 아롱디스망 | ontologyProperty = arrondissement }}
+	{{PropertyMapping | templateProperty = 칸톤 | ontologyProperty = canton }}
+	{{PropertyMapping | templateProperty = 우편번호 | ontologyProperty = postalCode }}
+	{{PropertyMapping | templateProperty = 시장 | ontologyProperty = mayor }}
+	{{PropertyMapping | templateProperty = 홈페이지 | ontologyProperty = foaf:homepage }}
+	{{PropertyMapping | templateProperty = 인구 | ontologyProperty = populationTotal }}
+	{{PropertyMapping | templateProperty = 면적 | ontologyProperty = area | unit = squareKilometre  }}
+	{{PropertyMapping | templateProperty = 평균고도 | ontologyProperty = elevation | unit = metre }}
+	{{PropertyMapping | templateProperty = 최소고도 | ontologyProperty = minimumElevation | unit = metre }}
+	{{PropertyMapping | templateProperty = elevation_max_m | ontologyProperty = maximumElevation | unit = metre }}
+end}}
+ 
+&lt;!-- Not Yet Mapping
+|앙제_번호       = 
+|시장_임기       = 
+|마을_그룹       = 
+|지리_좌표계     = 
+|헥타르          = 
+|총인구_조사연도 = 
+|인구밀도        = 
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

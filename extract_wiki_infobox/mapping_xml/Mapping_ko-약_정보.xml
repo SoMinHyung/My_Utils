@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:약 정보</title>
+        <ns>242</ns>
+        <id>4590</id>
+        <revision>
+          <id>52414</id>
+          <timestamp>2017-10-15T14:46:15Z</timestamp>
+          <contributor>
+            <username>Chile</username>
+            <id>41446</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--약_정보--&gt;
+{{TemplateMapping
+| mapToClass = Drug
+| mappings =
+	{{PropertyMapping | templateProperty = IUPAC_name | ontologyProperty = iupacName }}
+	{{PropertyMapping | templateProperty = CAS_number | ontologyProperty = casNumber }}
+    {{PropertyMapping | templateProperty = ATC_prefix | ontologyProperty = atcCode }}
+    {{PropertyMapping | templateProperty = ATC_suffix | ontologyProperty = atcCode }}
+	{{PropertyMapping | templateProperty = ATC_supplemental | ontologyProperty = atcCode }}
+	{{PropertyMapping | templateProperty = PubChem | ontologyProperty = pubchem }}
+	{{PropertyMapping | templateProperty = DrugBank | ontologyProperty = drugbank }}
+end}}
+
+ 
+&lt;!-- Not Yet Mapping
+| chemical_formula = 
+| molecular_weight = 
+| bioavailability = 
+| protein_bound = 
+| metabolism = 
+| elimination_half-life = 
+| excretion = 
+| pregnancy_AU =  
+| pregnancy_US = 
+| pregnancy_category =  
+| legal_AU =     
+| legal_UK =     
+| legal_US =     
+| legal_status = 
+| routes_of_administration = 
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

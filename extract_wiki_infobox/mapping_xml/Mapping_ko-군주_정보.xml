@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:군주 정보</title>
+        <ns>242</ns>
+        <id>4595</id>
+        <revision>
+          <id>15481</id>
+          <timestamp>2011-09-30T00:49:23Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--군주_정보--&gt;
+{{TemplateMapping
+| mapToClass = Monarch
+| mappings =
+	{{PropertyMapping | templateProperty = 종교 | ontologyProperty = religion }}
+	{{PropertyMapping | templateProperty = 별명 | ontologyProperty = foaf:nick }}
+	{{PropertyMapping | templateProperty = 본명 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 칭호 | ontologyProperty = title }}
+	{{PropertyMapping | templateProperty = 다른 이름 | ontologyProperty = alias }}
+	{{PropertyMapping | templateProperty = 이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 전임자 | ontologyProperty = predecessor }}
+	{{PropertyMapping | templateProperty = 후임자 | ontologyProperty = successor }}
+	{{PropertyMapping | templateProperty = 배우자 | ontologyProperty = spouse }}
+	{{PropertyMapping | templateProperty = 자녀 | ontologyProperty = child }}
+	{{PropertyMapping | templateProperty = 부친 | ontologyProperty = parent }}
+	{{PropertyMapping | templateProperty = 모친 | ontologyProperty = parent }}
+	{{PropertyMapping | templateProperty = 출생일 | ontologyProperty = birthDate }}
+	{{PropertyMapping | templateProperty = 출생지 | ontologyProperty = birthPlace }}
+	{{PropertyMapping | templateProperty = 사망일 | ontologyProperty = deathDate }}
+	{{PropertyMapping | templateProperty = 사망지 | ontologyProperty = deathPlace }}
+	{{PropertyMapping | templateProperty = 매장지 | ontologyProperty = restingPlace }}
+end}}
+
+ 
+&lt;!-- Not Yet Mapping
+|재위      = 
+|대관식    = 
+|왕가      = 
+|왕조      = 
+|묘호      = 
+|시호      = 
+|서명      = 
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

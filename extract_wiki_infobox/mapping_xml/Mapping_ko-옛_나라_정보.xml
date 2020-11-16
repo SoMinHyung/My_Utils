@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:옛 나라 정보</title>
+        <ns>242</ns>
+        <id>4593</id>
+        <revision>
+          <id>15478</id>
+          <timestamp>2011-09-30T00:38:48Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--옛_나라_정보--&gt;
+{{TemplateMapping
+| mapToClass = Country
+| mappings =
+	{{PropertyMapping | templateProperty = 나라이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 현지이름 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = 존속기간_시작 | ontologyProperty = foundingYear }}
+	{{PropertyMapping | templateProperty = 존속기간_끝 | ontologyProperty = dissolutionYear }}
+	{{PropertyMapping | templateProperty = 국가 | ontologyProperty = anthem }}
+	{{PropertyMapping | templateProperty = 정부형태 | ontologyProperty = governmentType }}
+	{{PropertyMapping | templateProperty = 통화 | ontologyProperty = currency }}
+	{{PropertyMapping | templateProperty = 나라_표어 | ontologyProperty = motto }}
+	{{PropertyMapping | templateProperty = 종교 | ontologyProperty = religion }}
+	{{PropertyMapping | templateProperty = 수도 | ontologyProperty = capital }}
+	{{PropertyMapping | templateProperty = 공용어 | ontologyProperty = officialLanguage }}
+	{{PropertyMapping | templateProperty = 지도자_칭호 | ontologyProperty = leaderTitle }}
+	{{PropertyMapping | templateProperty = 지도자_이름 | ontologyProperty = leaderName }}
+	{{PropertyMapping | templateProperty = 면적 | ontologyProperty = area | unit = squareKilometre }}
+	{{PropertyMapping | templateProperty = 내수면_비율 | ontologyProperty = percentageOfAreaWater }}
+	{{PropertyMapping | templateProperty = 인구밀도 | ontologyProperty = populationDensity | unit = inhabitantsPerSquareKilometre }}
+end}}
+
+ 
+&lt;!-- Not Yet Mapping
+|수도위치= 
+|입법부 =
+|주권 = 
+|정부수립 = 
+|면적어림년도 = 
+|면적_순위 = 
+|인구어림년도 = 
+|어림인구수 = 
+|인구조사년도 = 
+|조사인구수 = 
+|인구_순위 = 
+|인구밀도_순위 = 
+|통화기호 = 
+|보충설명 = 
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

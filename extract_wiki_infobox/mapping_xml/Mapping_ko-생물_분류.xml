@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:생물 분류</title>
+        <ns>242</ns>
+        <id>6805</id>
+        <revision>
+          <id>25134</id>
+          <timestamp>2013-04-25T09:59:11Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">&lt;!--생물_분류_(20130420_임경태)--&gt;
+{{ConditionalMapping
+| cases =
+{{Condition
+    | templateProperty = 계
+    | operator = contains
+    | value = 척삭동물
+    | mapping = {{TemplateMapping | header = 0
+                | mapToClass = Animal
+                }}
+ }}
+
+   {{Condition
+    | templateProperty = 문
+     | operator = contains
+    | value = 동물
+    | mapping = {{TemplateMapping | header = 0
+                | mapToClass = Animal
+                }}
+ }}
+
+   {{Condition
+    | templateProperty = 계
+     | operator = contains
+    | value = 식물
+    | mapping = {{TemplateMapping | header = 0
+                | mapToClass = Plant
+                }}
+ }}
+
+   {{Condition
+    | operator = otherwise
+    | mapping = {{TemplateMapping | header = 0
+                | mapToClass = Species
+                }}
+ }}
+
+| defaultMappings =
+    {{PropertyMapping | templateProperty = 역 | ontologyProperty = domain }}
+    {{PropertyMapping | templateProperty = 계 | ontologyProperty = kingdom }}
+    {{PropertyMapping | templateProperty = 색 | ontologyProperty = colourName }}
+    {{PropertyMapping | templateProperty = 색 | ontologyProperty = colour }}
+    {{PropertyMapping | templateProperty = 문 | ontologyProperty = division }}
+    {{PropertyMapping | templateProperty = 문 | ontologyProperty = phylum }}
+    {{PropertyMapping | templateProperty = 강 | ontologyProperty = class }}
+    {{PropertyMapping | templateProperty = 아강 | ontologyProperty = class }}
+    {{PropertyMapping | templateProperty = 목 | ontologyProperty = order }}
+    {{PropertyMapping | templateProperty = 아목 | ontologyProperty = order }}
+    {{PropertyMapping | templateProperty = 하목 | ontologyProperty = order }}
+    {{PropertyMapping | templateProperty = 소목 | ontologyProperty = order }}
+    {{PropertyMapping | templateProperty = 과 | ontologyProperty = family }}
+    {{PropertyMapping | templateProperty = 상과 | ontologyProperty = family }}
+    {{PropertyMapping | templateProperty = 속 | ontologyProperty = genus }}
+    {{PropertyMapping | templateProperty = 종 | ontologyProperty = species }}
+    {{PropertyMapping | templateProperty = 학명 | ontologyProperty = binomial }}
+    {{PropertyMapping | templateProperty = 상태 | ontologyProperty = conservationStatus }}
+    {{PropertyMapping | templateProperty = 상태_기준 | ontologyProperty = conservationStatusSystem }}
+    {{PropertyMapping | templateProperty = 이름 | ontologyProperty = foaf:name }}
+    {{PropertyMapping | templateProperty = 이명 | ontologyProperty = synonym }}
+end}}
+
+
+&lt;!--이름 = 
+| 화석_범위 = 
+| 그림 = 
+| 그림_설명 = 
+| 상태 = 
+| 상태_기준 =
+| 색 = 
+| 역 = 
+| 계 = 
+| 문 = 
+| 강 = 
+| 아강 = 
+| 목 = 
+| 과 = 
+| 아과 = 
+| 속 = 
+| 종 = 
+| 아종 = 
+| 학명 = 
+| 학명_명명 = 
+| 하위 = 
+| 하위_고리 = 
+| 지도 = 
+| 지도_크기 = 
+| 지도_설명 = 
+| 크기 = 
+| 이명 = 
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

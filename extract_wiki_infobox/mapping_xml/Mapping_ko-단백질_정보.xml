@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><mediawiki xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="ko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.8/">
+      <page>
+        <title>Mapping ko:단백질 정보</title>
+        <ns>242</ns>
+        <id>4512</id>
+        <revision>
+          <id>15294</id>
+          <timestamp>2011-09-26T05:54:33Z</timestamp>
+          <contributor>
+            <username>Kekeeo</username>
+            <id>206</id>
+          </contributor>
+          <text xml:space="preserve">{{TemplateMapping
+| mapToClass = Protein
+| mappings =
+	{{PropertyMapping | templateProperty = 명칭 | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = PDB | ontologyProperty = pdb }}
+end}}
+
+&lt;!-- Not Yet Mapping
+|분류 =
+--&gt;</text>
+          <format>text/x-wiki</format>
+        </revision>
+      </page>
+    </mediawiki>

@@ -100,7 +100,7 @@ class InfoboxExtractor():
         infobox_category = first_sentence_split[0][2:].strip()
         infobox = None
 
-        # infobox가 사진인 경우 제외
+        # infobox가 사진인 경우 제외 -> None으로 리
         if infobox_category in ["imbox", "fmbox", "여러그림", "위치 지도+", "중앙", "여러 문제", "여러문제"]:
             return infobox
 
@@ -234,13 +234,13 @@ class InfoboxExtractor():
                             print("Infobox exists with script info in ", page_title)
                     continue
 
-                # pass의 경우 infobox가 None으로 리턴
+                # 찾은 Infobox를 dict형으로 반환
+                # 만약 제외할 대상들은 infobox값이 None으로 리턴
                 infobox = self._get_infobox2dict(infobox_sentence_list = infobox_sentence_list, page_title=page_title)
                 if infobox == None:
                     continue
 
                 infoboxes.append(infobox)
-
 
         print("finish")
         print("infobox = " , len(infoboxes))

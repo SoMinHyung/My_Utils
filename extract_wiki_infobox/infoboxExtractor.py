@@ -2,16 +2,17 @@ import xml.etree.ElementTree as ET
 import json
 import time
 
-def save_file(parsed_data, output_file_name):
-    with open(output_file_name, 'w') as file:
-        json.dump(parsed_data, file, ensure_ascii=False)
-    print("Wikidump parsed and saved at " + output_file_name)
 
 class InfoboxExtractor():
 
     def run(self, input_file_name):
         parsed_data=self._parse_dump(input_file_name)
         return parsed_data
+
+    def save_file(self, parsed_data, output_file_name):
+        with open(output_file_name, 'w') as file:
+            json.dump(parsed_data, file, ensure_ascii=False)
+        print("Wikidump parsed and saved at " + output_file_name)
 
     def _unmatched_bracket(self, text):
         """
@@ -256,4 +257,4 @@ if __name__ == "__main__":
     extractor = InfoboxExtractor()
     parsed_data = extractor.run(input_file_name='../resources/kowiki-20200720-pages-articles-multistream.xml')
 
-    save_file(parsed_data=parsed_data, output_file_name='../resources/full_output.json')
+    extractor.save_file(parsed_data=parsed_data, output_file_name='../resources/full_output.json')

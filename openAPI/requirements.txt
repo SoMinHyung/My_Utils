@@ -1,2 +1,5 @@
 PyQt5
 ccxt
+jwt
+requests
+python-telegram-bot

@@ -1,5 +1,5 @@
 import ccxt
-
+import csv
 
 
 class Binance():
@@ -9,6 +9,10 @@ class Binance():
             'secret' : binance_secret_key,
             'options': { 'adjustForTimeDifference': True}
         })
+
+    def get_wallet_status(self,ticker=None):
+        out = self.binance.fetch_status()
+        print(out)
 
     def create_limit_order(self, ticker, side, amount, price):
         order = self.binance.create_limit_order(symbol=ticker, side=side, amount=amount, price=price)
@@ -36,7 +40,11 @@ class Binance():
     # def _check_wallet(self):
 
 if __name__ == '__main__':
-    binance = Binance()
-    order = binance.create_limit_order('XRP/BTC', 'buy', 10, 0.000025)
+
+    with open('key.txt', 'r') as f:
+        keys = list(csv.reader(f, delimiter="/"))
+    binance = Binance(binance_access_key=keys[1][1], binance_secret_key=keys[1][2])
+    binance.get_wallet_status()
+    # order = binance.create_limit_order('XRP/BTC', 'buy', 10, 0.000025)
     # order = binance.create_market_order('XRP/BTC', 'buy', 1)
     # binance.create_market_order('XRP/BTC','buy',0.005)

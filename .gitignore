@@ -5,3 +5,4 @@
 *.pyc
 resources/kowiki-20200720-pages-articles-multistream.xml
 key.txt
+/resources

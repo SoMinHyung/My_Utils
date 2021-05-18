@@ -28,7 +28,8 @@ class Crawling_upbit_notice():
 
     def start_monitoring(self, rate):
         count = 0
-        while True:
+        Monitoring = True
+        while Monitoring:
             count +=1
 
             req = requests.get(self.url, headers=self.headers)
@@ -52,6 +53,7 @@ class Crawling_upbit_notice():
                         # for tick in ticker:
                         #     self.binance.create_market_order(tick,'sell', order_rate) # buy , sell
                         print('BTC 상장', ticker)
+                        Monitoring = False
                     elif '원화' in new_title:
                         ticker = re.findall('[A-Z]+', new_title)
                         if self.upbit.KRW > 5000:
@@ -61,6 +63,7 @@ class Crawling_upbit_notice():
                             currency = 'BTC-' + tick
                             self.upbit.create_market_order(currency, 'buy', order_rate)
                         print("원화 추가", ticker)
+                        Monitoring = False
 
                 self.bot.sendMessage(msg=new)
                 newest_news = new

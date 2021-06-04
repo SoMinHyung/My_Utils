@@ -34,11 +34,13 @@ class Crawling_upbit_notice():
 
             req = requests.get(self.url, headers=self.headers)
             crawled_data = req.json()
-            time.sleep(random.uniform(2,4))
+            time.sleep(random.uniform(1,3))
 
-            new = crawled_data['data']['list'][1]
+            new = crawled_data['data']['list'][0]
             if count == 1:
                 newest_news = new
+                self.bot.sendMessage(msg=newest_news)
+                newest_news = newest_news
             new_title = new['title']
 
             print(count)
@@ -69,5 +71,13 @@ class Crawling_upbit_notice():
                 newest_news = new
 
 if __name__ == "__main__":
+    Flag = True
     crawler = Crawling_upbit_notice()
-    crawler.start_monitoring(1)
+    while Flag:
+        try:
+            crawler.start_monitoring(1)
+        except KeyboardInterrupt:
+            Flag=False
+            print("KeyboardInterrupt")
+        except Exception as e:
+            print(e.message)

@@ -60,6 +60,18 @@ class Upbit():
 
         return deposit_address, second_address
 
+    def withdrawal(self, currency, amount, address, secondary_address='',transaction_type='internal'):
+        query = {
+            'currency': currency,
+            'amount': amount,
+            'address': address,
+            "secondary_address" : secondary_address,
+            'transaction_type':transaction_type
+        }
+        headers = self._request_headers(query)
+        res = requests.post(self.server_url + "/v1/withdraws/coin", params=query, headers=headers)
+        return res.json()
+
     def _get_wallet_address(self, currency):
         query = {
             'currency': currency,
@@ -136,10 +148,12 @@ if __name__ == '__main__':
     with open('key.txt', 'r') as f:
         keys = list(csv.reader(f, delimiter="/"))
     upbit = Upbit(upbit_access_key=keys[0][1], upbit_secret_key=keys[0][2])
-    upbit.create_market_order('BTC-XRP', 'buy', 1)
+    #upbit.create_market_order('BTC-XRP', 'buy', 1)
 
-
+    # result=upbit.withdrawal('BTC', address='btc-pizzaday-2021', amount=0.0001)
+    # print(result)
     # # wallet 오픈 여부
-    # state = upbit.check_wallet_status('BTC')
-    # deposit_address, second_address = upbit.get_address('XRP')
-    # print(deposit_address, second_address)
+    state = upbit.check_wallet_status('NKN')
+    print(state)
+    deposit_address, second_address = upbit.get_address('NKN')
+    print(deposit_address, second_address)

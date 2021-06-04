@@ -1,3 +1,4 @@
+import json
 import telegram
 
 class Telegram_bot():
@@ -6,4 +7,15 @@ class Telegram_bot():
         self.bot = telegram.Bot(token=token)
 
     def sendMessage(self, msg):
-        self.bot.sendMessage(chat_id='1148111890', text=msg)
+        msg_json = json.dumps(msg, ensure_ascii=False)
+        self.bot.sendMessage(chat_id='@noticechannelupbbbit', text=msg_json)
+
+    def getmsglog(self):
+        updates = self.bot.getUpdates()
+        for u in updates:
+            print(u.message)
+
+if __name__ == "__main__":
+    bot = Telegram_bot()
+    # bot.getmsglog()
+    bot.sendMessage("hello")

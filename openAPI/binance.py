@@ -7,8 +7,32 @@ class Binance():
         self.binance = ccxt.binance({
             'apiKey' : binance_access_key,
             'secret' : binance_secret_key,
-            'options': { 'adjustForTimeDifference': True}
+            'options': { 'adjustForTimeDifference': True},
+            'verbose': True
         })
+
+        self.only_btc_tickers, self.only_usdt_tickers, self.both_tickers = self._get_tickers()
+
+    def _get_tickers(self):
+        tickers = self.binance.fetch_tickers()
+        keys = tickers.keys()
+        btc_count = []
+        usdt_count = []
+        only_usdt = []
+        for key in keys:
+            if '/BTC' in key:
+                key = key.replace("/BTC","")
+                btc_count.append(key)
+            if '/USDT' in key:
+                key = key.replace("/USDT","")
+                usdt_count.append(key)
+
+        for usdt in usdt_count:
+            if usdt in btc_count:
+                btc_count.remove(usdt)
+            else:
+                only_usdt.append(usdt)
+        return btc_count, only_usdt, usdt_count
 
     def get_wallet_status(self,ticker=None):
         out = self.binance.fetch_status()
@@ -44,7 +68,8 @@ if __name__ == '__main__':
     with open('key.txt', 'r') as f:
         keys = list(csv.reader(f, delimiter="/"))
     binance = Binance(binance_access_key=keys[1][1], binance_secret_key=keys[1][2])
-    binance.get_wallet_status()
+    # binance.get_wallet_status()
+    print(binance.only_btc_tickers)
     # order = binance.create_limit_order('XRP/BTC', 'buy', 10, 0.000025)
     # order = binance.create_market_order('XRP/BTC', 'buy', 1)
     # binance.create_market_order('XRP/BTC','buy',0.005)

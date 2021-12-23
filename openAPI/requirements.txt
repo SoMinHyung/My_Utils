@@ -3,3 +3,4 @@ ccxt
 pyjwt
 requests
 python-telegram-bot
+telethon

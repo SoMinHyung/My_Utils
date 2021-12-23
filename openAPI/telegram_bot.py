@@ -1,21 +1,34 @@
 import json
 import telegram
+import configparser
+#telethon
+import telethon.sync
+from telethon import TelegramClient
 
-class Telegram_bot():
+class Telegram_Crawler():
     def __init__(self):
-        token = '1823385800:AAHxmzCrlE6uSQcb41Ie4BqwD0ZiK5wIeBo'
-        self.bot = telegram.Bot(token=token)
+        # Reading Configs
+        config = configparser.ConfigParser()
+        config.read("config.ini")
 
-    def sendMessage(self, msg):
-        msg_json = json.dumps(msg, ensure_ascii=False)
-        self.bot.sendMessage(chat_id='@noticechannelupbbbit', text=msg_json)
+        # Setting configuration values & Log in
+        api_id = config['Telegram']['api_id']
+        api_hash = config['Telegram']['api_hash']
+        phone = config['Telegram']['phone']
+        username = config['Telegram']['username']
+        self.client = self._log_in(api_id, api_hash, phone, username)
 
-    def getmsglog(self):
-        updates = self.bot.getUpdates()
-        for u in updates:
-            print(u.message)
+    def _log_in(self,api_id, api_hash, phone, username):
+        client = TelegramClient(username, api_id, api_hash)
+        client.start(phone=phone)
+        print("Client Created")
+        return client
+
+    def get_channel_msg(self, count=1):
+        target_channel = 'shrimp_notice'
+        msgs = self.client.get_messages(target_channel, count)
+        return msgs
 
 if __name__ == "__main__":
-    bot = Telegram_bot()
-    # bot.getmsglog()
-    bot.sendMessage("hello")
+    crawler = Telegram_Crawler()
+    crawler.get_channel_msg()

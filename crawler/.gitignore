@@ -1,0 +1,21 @@
+# 공용 자격증명/상태 — 절대 커밋 금지
+secrets.ini
+
+# 각 프로젝트 설정(토큰·로그인·telethon 자격 등)과 상태/세션 파일
+*/config.ini
+*/.env
+*/*.session
+*/storage_state.json
+*/seen_seqs.json
+*/seen_seqs.json.tmp
+*/debug_screenshot.png
+*/captcha_captures/
+*/images/
+*/inspect_*.png
+
+# 가상환경 / 캐시
+*/.venv/
+.venv/
+**/__pycache__/
+*.pyc
+.DS_Store

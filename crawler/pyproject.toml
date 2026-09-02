@@ -1,0 +1,16 @@
+[project]
+name = "crawler"
+version = "0.1.0"
+description = "텔레그램 알림 웹 모니터링/크롤러 모음 — 공통 uv 환경(Python 3.12)"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    # kofia_notice_bot, common/notifier
+    "requests>=2.32",
+    # interpark_monitor, doosan_ticket_monitor
+    "playwright>=1.58.0",
+    "playwright-stealth>=2.0.2",
+]
+
+[tool.uv]
+# 설치형 패키지가 아니라 스크립트 모음이므로 프로젝트 자체는 빌드/설치하지 않는다.
+package = false

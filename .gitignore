@@ -1,9 +1,4 @@
 /.idea
 .DS_Store
-*.json
-*.tsv
-*.pyc
-resources/kowiki-20200720-pages-articles-multistream.xml
-key.txt
-/resources
-/extract_wiki
+
+# crawler/ 하위 프로젝트의 비밀·상태 파일은 crawler/.gitignore 에서 관리합니다.

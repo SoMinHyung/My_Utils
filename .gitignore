@@ -1,4 +1,16 @@
 /.idea
 .DS_Store
 
+# 캐시
+__pycache__/
+*.pyc
+
+# 로컬 도구 설정
+/.codex/
+
+# 자격증명·세션 — 절대 커밋 금지
+*.session
+openAPI/config.ini
+openAPI/key.txt
+
 # crawler/ 하위 프로젝트의 비밀·상태 파일은 crawler/.gitignore 에서 관리합니다.

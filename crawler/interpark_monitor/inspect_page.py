@@ -7,13 +7,25 @@
 """
 import configparser
 import random
+import sys
 from pathlib import Path
 
 from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
 from playwright.sync_api import sync_playwright
 from playwright_stealth import Stealth
 
+CRAWLER_DIR = Path(__file__).resolve().parent.parent
+if str(CRAWLER_DIR) not in sys.path:
+    sys.path.insert(0, str(CRAWLER_DIR))
+
+from common.notifier import TelegramNotifier
 from image_text import extract_image_text_with_codex
+from seat_availability import (
+    SeatGradeResponseCollector,
+    ShowAvailability,
+    change_onestop_schedule,
+    format_availability_message,
+)
 from seat_diagnostics import (
     SeatResponseDiagnostics,
     inspect_seat_page,
@@ -25,6 +37,13 @@ config = configparser.ConfigParser()
 config.read("config.ini")
 url = config['Interpark']['url']
 target_date = config['Interpark']['target_date']  # "2026.12.19"
+target_dates = [
+    value.strip()
+    for value in config['Interpark'].get('target_dates', target_date).split(',')
+    if value.strip()
+]
+target_date = target_dates[0]
+target_showtime = config['Interpark'].getint('target_showtime', fallback=1)
 login_id = config['Interpark']['login_id']
 login_pw = config['Interpark']['login_pw']
 
@@ -298,9 +317,12 @@ with sync_playwright() as p:
     print(f"날짜 선택: {target_date}")
 
     labels = page.locator('.timeTableLabel')
-    if labels.count() > 0:
-        human_click(page, labels.first)
-        print(f"회차 선택: {labels.first.inner_text()!r}")
+    initial_showtime = f"{target_showtime}회"
+    if labels.count() >= target_showtime:
+        target_label = labels.nth(target_showtime - 1)
+        human_click(page, target_label)
+        initial_showtime = target_label.inner_text().strip()
+        print(f"회차 선택: {initial_showtime!r}")
 
     page.wait_for_timeout(1000)
 
@@ -402,6 +424,8 @@ with sync_playwright() as p:
             # query/header/cookie/본문은 저장하지 않고 JSON 구조만 기록한다.
             seat_network = SeatResponseDiagnostics().install(context)
             seat_network.arm()
+            grade_collector = SeatGradeResponseCollector().install(context)
+            grade_collector.arm()
             btn2 = result_page.locator('a.sideBtn:has-text("예매하기")').first
             if btn2.count() > 0:
                 try:
@@ -435,11 +459,73 @@ with sync_playwright() as p:
                 )
                 seat_network.drain()
                 seat_network.uninstall()
+                shows = [
+                    ShowAvailability(
+                        show_date=target_dates[0],
+                        showtime=initial_showtime,
+                        grades=grade_collector.wait_for_latest(seat_page),
+                    )
+                ]
                 dom_report = None
                 if manual_ready:
                     print(f"URL: {seat_page.url}")
                     print(f"타이틀: {seat_page.title()}")
                     dom_report = inspect_seat_page(seat_page)
+
+                    for next_date in target_dates[1:]:
+                        try:
+                            next_showtime = change_onestop_schedule(
+                                seat_page,
+                                next_date,
+                                target_showtime,
+                                click_fn=human_click,
+                                before_submit=grade_collector.arm,
+                            )
+                            next_manual_ready = wait_for_manual_image_completion(
+                                seat_page,
+                                IMAGE_INPUT_SELECTOR,
+                            )
+                            next_grades = (
+                                grade_collector.wait_for_latest(seat_page)
+                                if next_manual_ready
+                                else None
+                            )
+                            print(
+                                f"일정변경 조회 완료: {next_date} "
+                                f"{next_showtime} grades={next_grades!r}"
+                            )
+                        except Exception as exc:
+                            print(
+                                f"일정변경 조회 실패: {next_date} "
+                                f"({type(exc).__name__})"
+                            )
+                            next_showtime = f"{target_showtime}회"
+                            next_grades = None
+                        shows.append(
+                            ShowAvailability(
+                                show_date=next_date,
+                                showtime=next_showtime,
+                                grades=next_grades,
+                            )
+                        )
+                else:
+                    shows.extend(
+                        ShowAvailability(
+                            show_date=next_date,
+                            showtime=f"{target_showtime}회",
+                            grades=None,
+                        )
+                        for next_date in target_dates[1:]
+                    )
+
+                grade_collector.uninstall()
+
+                message = format_availability_message(
+                    shows,
+                    reserve_url=url,
+                )
+                sent = TelegramNotifier().send(message, disable_preview=True)
+                print(f"=== 텔레그램 좌석 메시지 발송: {sent} ===")
 
                 diagnostics_path = save_seat_diagnostics(
                     seat_network.records,
